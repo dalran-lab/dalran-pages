@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Algarve Guide · Family Felber</title>
+<style>
+:root {
+  --must: #d94f1e;
+  --worth: #c47d0a;
+  --opt: #4a8a65;
+  --bg: #fdf7f0;
+  --card: #ffffff;
+  --text: #1a1a1a;
+  --muted: #6b7280;
+  --border: #ede6da;
+  --maps: #1a73e8;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: var(--bg); color: var(--text); font-size: 15px; }
+
+.header { background: linear-gradient(135deg, #b83a12 0%, #d9581e 45%, #e8922a 100%); color: white; padding: 28px 18px 22px; }
+.header h1 { font-size: 1.35rem; font-weight: 800; letter-spacing: -0.02em; }
+.header .sub { font-size: 0.78rem; opacity: 0.85; margin-top: 4px; line-height: 1.5; }
+.header .base { margin-top: 12px; background: rgba(255,255,255,0.18); border-radius: 9px; padding: 8px 12px; font-size: 0.76rem; display: inline-flex; align-items: center; gap: 6px; }
+
+.tier-wrap { padding: 18px 14px 4px; }
+.tier-badge { font-size: 0.68rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.1em; padding: 4px 11px; border-radius: 20px; display: inline-block; }
+.must .tier-badge  { background: #fde8df; color: #b83a12; }
+.worth .tier-badge { background: #fef3c7; color: #92600a; }
+.opt .tier-badge   { background: #d1fae5; color: #065f46; }
+
+.card { background: var(--card); border: 1px solid var(--border); border-radius: 16px; margin: 0 14px 13px; box-shadow: 0 1px 5px rgba(0,0,0,0.06); overflow: hidden; }
+.card-bar { height: 4px; }
+.must  .card-bar { background: var(--must); }
+.worth .card-bar { background: var(--worth); }
+.opt   .card-bar { background: var(--opt); }
+
+.card-inner { padding: 14px 15px 15px; }
+.row1 { display: flex; align-items: flex-start; gap: 11px; margin-bottom: 9px; }
+.prio { min-width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.82rem; font-weight: 800; color: white; flex-shrink: 0; }
+.must  .prio { background: var(--must); }
+.worth .prio { background: var(--worth); }
+.opt   .prio { background: var(--opt); }
+.name { font-size: 1rem; font-weight: 700; line-height: 1.25; }
+.loc  { font-size: 0.72rem; color: var(--muted); margin-top: 2px; }
+
+.chips { display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 10px; }
+.chip { font-size: 0.68rem; font-weight: 600; padding: 3px 9px; border-radius: 20px; display: inline-flex; align-items: center; gap: 3px; }
+.c-drive { background: #f3f4f6; color: #374151; }
+.c-kids  { background: #fef9c3; color: #854d0e; }
+.c-star  { background: #fff0e6; color: #9a3412; }
+.c-rain  { background: #e0f2fe; color: #0c4a6e; }
+.c-warn  { background: #f3f4f6; color: #6b7280; }
+
+.desc { font-size: 0.83rem; color: #374151; line-height: 1.65; margin-bottom: 11px; }
+
+.spots { border-top: 1px dashed var(--border); padding-top: 10px; margin-bottom: 12px; display: flex; flex-direction: column; gap: 7px; }
+.spot { display: flex; gap: 8px; font-size: 0.79rem; }
+.spot-ico { font-size: 0.95rem; flex-shrink: 0; padding-top: 1px; }
+.spot-txt { color: #374151; line-height: 1.55; }
+.spot-txt strong { color: var(--text); }
+.spot-link { display: inline-block; margin-top: 3px; font-size: 0.72rem; color: var(--maps); text-decoration: none; font-weight: 600; }
+
+.btn-map { display: flex; align-items: center; justify-content: center; gap: 7px; background: var(--maps); color: white; border-radius: 10px; padding: 10px 14px; font-size: 0.81rem; font-weight: 700; text-decoration: none; letter-spacing: 0.01em; }
+
+footer { text-align: center; padding: 32px 20px; color: #bbb; font-size: 0.7rem; border-top: 1px solid var(--border); margin-top: 10px; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>🇵🇹 Algarve Family Guide</h1>
+  <div class="sub">Curated by Sébastien &amp; Tania · Prioritised for kids aged 2 &amp; 4</div>
+  <div class="base">📍 Base camp · 3HB Guaraná, Olhos de Água, Albufeira</div>
+</div>
+
+<!-- ══════════ MUST DO ══════════ -->
+<div class="must">
+  <div class="tier-wrap"><span class="tier-badge">⭐ Must Do</span></div>
+
+  <!-- 1 · Alvor -->
+  <div class="card">
+    <div class="card-bar"></div>
+    <div class="card-inner">
+      <div class="row1">
+        <div class="prio">1</div>
+        <div><div class="name">Alvor Beach &amp; Boardwalk</div><div class="loc">Alvor · Portimão</div></div>
+      </div>
+      <div class="chips">
+        <span class="chip c-drive">🚗 35 km · 35 min</span>
+        <span class="chip c-kids">👶 Toddler-perfect</span>
+        <span class="chip c-star">💛 Sébastien's top pick</span>
+      </div>
+      <p class="desc">Endless sandy beach with a km-long wooden boardwalk ideal for little ones to run and explore. Go late afternoon: walk the boardwalk at sunset, then dinner in the lively village. Sébastien is here himself with his family right now.</p>
+      <div class="spots">
+        <div class="spot">
+          <div class="spot-ico">🍽️</div>
+          <div class="spot-txt">
+            <strong>À Ribeira do Alvor</strong> — Sébastien's restaurant pick. Order the ceviche, cataplana (the local specialty) and the famous white sangria. Village is lively after for ice cream.
+            <br><a class="spot-link" href="https://maps.google.com/?q=A+Ribeira+do+Alvor+restaurant+Alvor+Portugal" target="_blank">📍 Map – À Ribeira do Alvor</a>
+          </div>
+        </div>
+      </div>
+      <a class="btn-map" href="https://maps.google.com/?q=Alvor+beach+Portimao+Portugal" target="_blank">📍 Alvor Beach on Google Maps</a>
+    </div>
+  </div>
+
+  <!-- 2 · Carvoeiro -->
+  <div class="card">
+    <div class="card-bar"></div>
+    <div class="card-inner">
+      <div class="row1">
+        <div class="prio">2</div>
+        <div><div class="name">Carvoeiro &amp; Clifftop Walk</div><div class="loc">Carvoeiro · Lagoa — 20 min from hotel</div></div>
+      </div>
+      <div class="chips">
+        <span class="chip c-drive">🚗 17 km · 20 min</span>
+        <span class="chip c-kids">👶 Great with young kids</span>
+      </div>
+      <p class="desc">The closest highlight to your hotel. Carvoeiro is one of the most picturesque coastal villages in the Algarve, with a dramatic clifftop wooden walkway (passadico) hugging the golden cliffs over the sea. Easy half-day, worth a dinner.</p>
+      <div class="spots">
+        <div class="spot">
+          <div class="spot-ico">🚶</div>
+          <div class="spot-txt"><strong>Clifftop wooden walkway</strong> — The main attraction. Walk over the cliffs to Praia de Carvoeiro below. Kids love it.</div>
+        </div>
+      </div>
+      <a class="btn-map" href="https://maps.google.com/?q=Carvoeiro+Lagoa+Algarve+Portugal" target="_blank">📍 Carvoeiro on Google Maps</a>
+    </div>
+  </div>
+
+  <!-- 3 · Ferragudo -->
+  <div class="card">
+    <div class="card-bar"></div>
+    <div class="card-inner">
+      <div class="row1">
+        <div class="prio">3</div>
+        <div><div class="name">Ferragudo</div><div class="loc">Ferragudo · Lagoa</div></div>
+      </div>
+      <div class="chips">
+        <span class="chip c-drive">🚗 22 km · 25 min</span>
+        <span class="chip c-kids">👶 Charming harbour village</span>
+      </div>
+      <p class="desc">A beautiful, unspoiled fishing village with whitewashed houses and a pretty historic waterfront. Kids love watching the fishing boats. Far less touristy than Albufeira — perfect for a relaxed lunch stop.</p>
+      <div class="spots">
+        <div class="spot">
+          <div class="spot-ico">🍝</div>
+          <div class="spot-txt">
+            <strong>Borda do Cais</strong> — Sébastien's restaurant pick. Famous for spaghetti à la cataplana. Right on the waterfront.
+            <br><a class="spot-link" href="https://maps.google.com/?q=Borda+do+Cais+Ferragudo+Portugal" target="_blank">📍 Map – Borda do Cais</a>
+          </div>
+        </div>
+      </div>
+      <a class="btn-map" href="https://maps.google.com/?q=Ferragudo+historic+centre+Portugal" target="_blank">📍 Ferragudo on Google Maps</a>
+    </div>
+  </div>
+
+  <!-- 4 · Lagos -->
+  <div class="card">
+    <div class="card-bar"></div>
+    <div class="card-inner">
+      <div class="row1">
+        <div class="prio">4</div>
+        <div><div class="name">Lagos &amp; Ponta de Piedade</div><div class="loc">Lagos · Western Algarve</div></div>
+      </div>
+      <div class="chips">
+        <span class="chip c-drive">🚗 48 km · 45 min</span>
+        <span class="chip c-kids">⛵ Boat trip with toddlers!</span>
+        <span class="chip c-star">💛 Sébastien's Algarve #1</span>
+      </div>
+      <p class="desc">Sébastien's favourite in the whole Algarve. Beautiful village centre with restaurants and shops, and the famous Ponta de Piedade sea caves just outside. For the sea caves, negotiate a boat trip directly with local fishermen at the river — big hit with kids. Or drive to Ponta de Piedade and walk the wooden clifftop pontons for the same dramatic views without the boat.</p>
+      <div class="spots">
+        <div class="spot">
+          <div class="spot-ico">⛵</div>
+          <div class="spot-txt">
+            <strong>Ponta de Piedade sea caves</strong> — Negotiate directly with fishermen at the Lagos riverfront harbour. Boat trip into the caves is the most fun option for families.
+            <br><a class="spot-link" href="https://maps.google.com/?q=Ponta+de+Piedade+Lagos+Portugal" target="_blank">📍 Map – Ponta de Piedade</a>
+          </div>
+        </div>
+      </div>
+      <a class="btn-map" href="https://maps.google.com/?q=Lagos+old+town+Algarve+Portugal" target="_blank">📍 Lagos on Google Maps</a>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════ WORTH THE TRIP ══════════ -->
+<div class="worth">
+  <div class="tier-wrap"><span class="tier-badge">🚗 Worth the Trip</span></div>
+
+  <!-- 5 · Praia da Rocha / beaches -->
+  <div class="card">
+    <div class="card-bar"></div>
+    <div class="card-inner">
+      <div class="row1">
+        <div class="prio">5</div>
+        <div><div class="name">Praia da Rocha &amp; Portimão Beaches</div><div class="loc">Portimão area</div></div>
+      </div>
+      <div class="chips">
+        <span class="chip c-drive">🚗 30 km · 30 min</span>
+        <span class="chip c-kids">👶 Big sandy beaches</span>
+      </div>
+      <p class="desc">The long stretch of beaches between Lagos and Praia da Rocha is among the most beautiful in the Algarve — wide golden sand and sheltered bays, great for building sandcastles. Sébastien doesn't recommend Portimão city itself but the beaches are excellent.</p>
+      <div class="spots">
+        <div class="spot">
+          <div class="spot-ico">🐟</div>
+          <div class="spot-txt">
+            <strong>Forte e Feio</strong> (Portimão) — Sébastien's pick for ultra-fresh fish. Worth a lunch stop.
+            <br><a class="spot-link" href="https://maps.google.com/?q=Forte+e+Feio+Portimao+Portugal" target="_blank">📍 Map – Forte e Feio</a>
+          </div>
+        </div>
+      </div>
+      <a class="btn-map" href="https://maps.google.com/?q=Praia+da+Rocha+Portimao+Portugal" target="_blank">📍 Praia da Rocha on Google Maps</a>
+    </div>
+  </div>
+
+  <!-- 6 · Olhão / Ria Formosa -->
+  <div class="card">
+    <div class="card-bar"></div>
+    <div class="card-inner">
+      <div class="row1">
+        <div class="prio">6</div>
+        <div><div class="name">Olhão &amp; Ria Formosa</div><div class="loc">Olhão · Eastern Algarve</div></div>
+      </div>
+      <div class="chips">
+        <span class="chip c-drive">🚗 52 km · 45 min</span>
+        <span class="chip c-kids">⛵ Boat trip in nature park</span>
+      </div>
+      <p class="desc">From Olhão, take a boat into the Ria Formosa natural marine reserve — a stunning lagoon system with barrier islands, sandbars and wildlife. A memorable half-day excursion. Combine with Tavira for a full eastern Algarve day.</p>
+      <a class="btn-map" href="https://maps.google.com/?q=Olhao+Algarve+Portugal" target="_blank">📍 Olhão on Google Maps</a>
+    </div>
+  </div>
+
+  <!-- 7 · Tavira -->
+  <div class="card">
+    <div class="card-bar"></div>
+    <div class="card-inner">
+      <div class="row1">
+        <div class="prio">7</div>
+        <div><div class="name">Tavira</div><div class="loc">Tavira · Eastern Algarve</div></div>
+      </div>
+      <div class="chips">
+        <span class="chip c-drive">🚗 75 km · 55 min</span>
+        <span class="chip c-kids">👣 Lovely stroll, calm pace</span>
+      </div>
+      <p class="desc">One of the most charming historic towns in the Algarve — Roman bridge, white-cube Moorish architecture and a peaceful river. Pair with Olhão on the same day for a full eastern Algarve trip.</p>
+      <a class="btn-map" href="https://maps.google.com/?q=Tavira+historic+centre+Portugal" target="_blank">📍 Tavira on Google Maps</a>
+    </div>
+  </div>
+
+  <!-- 8 · Algarve Shopping -->
+  <div class="card">
+    <div class="card-bar"></div>
+    <div class="card-inner">
+      <div class="row1">
+        <div class="prio">8</div>
+        <div><div class="name">Algarve Shopping</div><div class="loc">Guia · 10 min from hotel</div></div>
+      </div>
+      <div class="chips">
+        <span class="chip c-drive">🚗 8 km · 10 min</span>
+        <span class="chip c-rain">🌧️ Rainy day lifesaver</span>
+      </div>
+      <p class="desc">The closest shopping mall — just 10 minutes from 3HB Guaraná. Your go-to if the weather turns or you need anything. Air-conditioned with restaurants and a kids' play area.</p>
+      <a class="btn-map" href="https://maps.google.com/?q=Algarve+Shopping+Guia+Portugal" target="_blank">📍 Algarve Shopping on Google Maps</a>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════ OPTIONAL ══════════ -->
+<div class="opt">
+  <div class="tier-wrap"><span class="tier-badge">🌥️ Optional / Weather dependent</span></div>
+
+  <!-- 9 · Forum Algarve -->
+  <div class="card">
+    <div class="card-bar"></div>
+    <div class="card-inner">
+      <div class="row1">
+        <div class="prio">9</div>
+        <div><div class="name">Forum Algarve</div><div class="loc">Faro</div></div>
+      </div>
+      <div class="chips">
+        <span class="chip c-drive">🚗 40 km · 35 min</span>
+        <span class="chip c-rain">🌧️ Bigger rainy day option</span>
+      </div>
+      <p class="desc">The best shopping mall in the Algarve near Faro. Bigger and better than Guia with a wide choice of shops and restaurants. Good for a rainy afternoon or an evening out.</p>
+      <a class="btn-map" href="https://maps.google.com/?q=Forum+Algarve+Faro+Portugal" target="_blank">📍 Forum Algarve on Google Maps</a>
+    </div>
+  </div>
+
+  <!-- 10 · Sagres -->
+  <div class="card">
+    <div class="card-bar"></div>
+    <div class="card-inner">
+      <div class="row1">
+        <div class="prio">10</div>
+        <div><div class="name">Sagres</div><div class="loc">Southwestern tip of Europe</div></div>
+      </div>
+      <div class="chips">
+        <span class="chip c-drive">🚗 92 km · 1h 15 min</span>
+        <span class="chip c-warn">⚠️ Long drive, less for toddlers</span>
+      </div>
+      <p class="desc">Dramatic clifftop fortress at the very southwestern tip of Europe — genuinely spectacular raw scenery. A long drive and limited activities for 2–4 year olds. Better as a couple's excursion, or keep for a long clear day when you feel adventurous.</p>
+      <a class="btn-map" href="https://maps.google.com/?q=Sagres+fortress+Portugal" target="_blank">📍 Sagres on Google Maps</a>
+    </div>
+  </div>
+
+  <!-- 11 · Odeceixe / Aljezur -->
+  <div class="card">
+    <div class="card-bar"></div>
+    <div class="card-inner">
+      <div class="row1">
+        <div class="prio">11</div>
+        <div><div class="name">Odeceixe &amp; Aljezur</div><div class="loc">Wild West Coast</div></div>
+      </div>
+      <div class="chips">
+        <span class="chip c-drive">🚗 95–100 km · 1h 20 min</span>
+        <span class="chip c-warn">⚠️ Sébastien: probably too far with kids</span>
+      </div>
+      <p class="desc">Wild, authentic and beautifully preserved west coast — a world away from tourist Algarve. Odeceixe is a surf hotspot. Sébastien himself flags it as probably too far with young kids and no real activities for them. Keep as a spontaneous adventure if the mood strikes.</p>
+      <a class="btn-map" href="https://maps.google.com/?q=Odeceixe+Portugal" target="_blank">📍 Odeceixe on Google Maps</a>
+    </div>
+  </div>
+</div>
+
+<footer>Curated by Sébastien &amp; Tania · June 2026 · Dalran for Family Felber 🇵🇹</footer>
+
+</body>
+</html>
