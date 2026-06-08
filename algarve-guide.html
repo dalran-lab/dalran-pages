@@ -4,7 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Algarve Guide · Family Felber</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
 <style>
+#map { height: 340px; width: 100%; z-index: 1; }
 :root {
   --must: #d94f1e;
   --worth: #c47d0a;
@@ -74,6 +76,8 @@ footer { text-align: center; padding: 32px 20px; color: #bbb; font-size: 0.7rem;
   <div class="sub">Curated by Sébastien &amp; Tania · Prioritised for kids aged 2 &amp; 4</div>
   <div class="base">📍 Base camp · 3HB Guaraná, Olhos de Água, Albufeira</div>
 </div>
+
+<div id="map"></div>
 
 <!-- ══════════ MUST DO ══════════ -->
 <div class="must">
@@ -323,5 +327,62 @@ footer { text-align: center; padding: 32px 20px; color: #bbb; font-size: 0.7rem;
 
 <footer>Curated by Sébastien &amp; Tania · June 2026 · Dalran for Family Felber 🇵🇹</footer>
 
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const map = L.map('map');
+
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+    maxZoom: 18
+  }).addTo(map);
+
+  function pin(num, color) {
+    return L.divIcon({
+      className: '',
+      html: `<div style="width:28px;height:28px;border-radius:50%;background:${color};color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:12px;border:2.5px solid #fff;box-shadow:0 2px 8px rgba(0,0,0,0.35);font-family:-apple-system,sans-serif;">${num}</div>`,
+      iconSize: [28, 28], iconAnchor: [14, 14], popupAnchor: [0, -16]
+    });
+  }
+
+  const hotelIcon = L.divIcon({
+    className: '',
+    html: `<div style="width:34px;height:34px;border-radius:50%;background:#1a73e8;color:#fff;display:flex;align-items:center;justify-content:center;font-size:16px;border:2.5px solid #fff;box-shadow:0 2px 8px rgba(0,0,0,0.4);">🏨</div>`,
+    iconSize: [34, 34], iconAnchor: [17, 17], popupAnchor: [0, -18]
+  });
+
+  const spots = [
+    { n:1,  c:'#d94f1e', lat:37.1294, lng:-8.5894, name:'Alvor Beach & Boardwalk',    dist:'35 km · 35 min', url:'https://maps.google.com/?q=Alvor+beach+Portimao+Portugal' },
+    { n:2,  c:'#d94f1e', lat:37.0944, lng:-8.4675, name:'Carvoeiro',                  dist:'17 km · 20 min', url:'https://maps.google.com/?q=Carvoeiro+Lagoa+Algarve+Portugal' },
+    { n:3,  c:'#d94f1e', lat:37.1097, lng:-8.5246, name:'Ferragudo',                  dist:'22 km · 25 min', url:'https://maps.google.com/?q=Ferragudo+Lagoa+Portugal' },
+    { n:4,  c:'#d94f1e', lat:37.1028, lng:-8.6754, name:'Lagos & Ponta de Piedade',   dist:'48 km · 45 min', url:'https://maps.google.com/?q=Ponta+de+Piedade+Lagos+Portugal' },
+    { n:5,  c:'#c47d0a', lat:37.1133, lng:-8.5344, name:'Praia da Rocha',             dist:'30 km · 30 min', url:'https://maps.google.com/?q=Praia+da+Rocha+Portimao+Portugal' },
+    { n:6,  c:'#c47d0a', lat:37.0186, lng:-7.8407, name:'Olhão & Ria Formosa',        dist:'52 km · 45 min', url:'https://maps.google.com/?q=Olhao+Algarve+Portugal' },
+    { n:7,  c:'#c47d0a', lat:37.1239, lng:-7.6507, name:'Tavira',                     dist:'75 km · 55 min', url:'https://maps.google.com/?q=Tavira+historic+centre+Portugal' },
+    { n:8,  c:'#c47d0a', lat:37.1408, lng:-8.2558, name:'Algarve Shopping (Guia)',    dist:'8 km · 10 min',  url:'https://maps.google.com/?q=Algarve+Shopping+Guia+Portugal' },
+    { n:9,  c:'#4a8a65', lat:37.0308, lng:-7.9625, name:'Forum Algarve (Faro)',       dist:'40 km · 35 min', url:'https://maps.google.com/?q=Forum+Algarve+Faro+Portugal' },
+    { n:10, c:'#4a8a65', lat:37.0069, lng:-8.9403, name:'Sagres',                     dist:'92 km · 1h 15',  url:'https://maps.google.com/?q=Sagres+fortress+Portugal' },
+    { n:11, c:'#4a8a65', lat:37.4436, lng:-8.7917, name:'Odeceixe & Aljezur',         dist:'95 km · 1h 20',  url:'https://maps.google.com/?q=Odeceixe+Portugal' },
+  ];
+
+  const bounds = [];
+  const hotel = [37.1003, -8.1806];
+  bounds.push(hotel);
+  L.marker(hotel, { icon: hotelIcon }).addTo(map)
+    .bindPopup('<strong>🏨 3HB Guaraná</strong><br><span style="color:#6b7280;font-size:12px;">Your base · Olhos de Água, Albufeira</span>');
+
+  spots.forEach(s => {
+    const ll = [s.lat, s.lng];
+    bounds.push(ll);
+    L.marker(ll, { icon: pin(s.n, s.c) }).addTo(map).bindPopup(
+      `<strong>${s.name}</strong><br>` +
+      `<span style="color:#6b7280;font-size:12px;">🚗 ${s.dist}</span><br>` +
+      `<a href="${s.url}" target="_blank" style="color:#1a73e8;font-size:12px;font-weight:600;">Open in Google Maps →</a>`
+    );
+  });
+
+  map.fitBounds(bounds, { padding: [24, 24] });
+});
+</script>
 </body>
 </html>
