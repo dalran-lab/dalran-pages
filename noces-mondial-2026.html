@@ -141,6 +141,8 @@ footer { text-align: center; padding: 26px 20px 30px; color: #aab5ae; font-size:
 .cd-top.live { color:#ff7a7a; }
 .live-dot { display:inline-block; width:8px; height:8px; border-radius:50%; background:#ff3b30; margin-right:6px; vertical-align:middle; animation:pulse 1.2s infinite; }
 @keyframes pulse { 0%{opacity:1;transform:scale(1)} 50%{opacity:0.35;transform:scale(1.35)} 100%{opacity:1;transform:scale(1)} }
+.cd-live-teams .sc { color:var(--gold); font-size:1.55rem; padding:0 1px; }
+.cd-live-dash { color:#5a6e62; margin:0 4px; font-weight:700; }
 </style>
 </head>
 <body>
@@ -274,61 +276,72 @@ try { FIXT = JSON.parse(document.getElementById('ng-data').textContent) || []; }
 FIXT.sort(function (a, b) { return new Date(a.t) - new Date(b.t); });
 var FALLBACK = "2026-06-11T20:00:00+02:00";
 var TZ = { timeZone: "Europe/Zurich" };
-var LIVE_MIN = 130;
-var FIFA = "https://www.fifa.com/fr/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures";
 
 function upcoming(){ var n=Date.now(); return FIXT.filter(function(f){return new Date(f.t).getTime()>n;}); }
-function liveNow(){ var n=Date.now(); return FIXT.filter(function(f){var k=new Date(f.t).getTime(); return k<=n && n<k+LIVE_MIN*60000;}); }
 function fDay(iso){ return new Date(iso).toLocaleDateString('fr-FR', Object.assign({day:'2-digit',month:'2-digit'},TZ)); }
 function fTime(iso){ return new Date(iso).toLocaleTimeString('fr-FR', Object.assign({hour:'2-digit',minute:'2-digit'},TZ)); }
 
 function renderList(up){
   var el=document.getElementById('ng-list');
-  if(!up.length){ el.innerHTML='<div class="ng-empty">🏆 Le Mondial est terminé — bravo à tous !</div>'; return; }
+  if(!up.length){ el.innerHTML='<div class="ng-empty">\ud83c\udfc6 Le Mondial est termin\u00e9 \u2014 bravo \u00e0 tous !</div>'; return; }
   el.innerHTML=up.slice(0,3).map(function(f,i){
     return '<div class="ng-row'+(i===0?' is-next':'')+'">'
       +'<div class="ng-when"><div class="day">'+fDay(f.t)+'</div><div class="time">'+fTime(f.t)+'</div></div>'
-      +'<div class="ng-teams">'+f.h+'<span class="vs">🆚</span>'+f.a+'</div>'
+      +'<div class="ng-teams">'+f.h+'<span class="vs">\ud83c\udd9a</span>'+f.a+'</div>'
       +(f.g?'<div class="ng-grp">'+f.g+'</div>':'')+'</div>';
   }).join('');
 }
 
+// ---- live score from FIFA (CORS-enabled, no key) ----
+var FIFA_LIVE = "https://api.fifa.com/api/v3/live/football/now?count=30&language=en";
+var LIVE = null;
+function tName(t){ try { return t.ShortClubName || t.TeamName[0].Description; } catch(e){ return '?'; } }
+function pollLive(){
+  fetch(FIFA_LIVE).then(function(r){ return r.json(); }).then(function(d){
+    var now=Date.now();
+    var wc=(d.Results||[]).filter(function(m){ return String(m.IdCompetition)==="17"; });
+    var live=wc.filter(function(m){ var k=new Date(m.Date).getTime(); return m.MatchStatus!==3 && k<=now && now<k+140*60000; });
+    if(live.length){
+      var m=live[0]; var mins=Math.max(1,Math.floor((now-new Date(m.Date).getTime())/60000));
+      var mt=(m.MatchTime&&(''+m.MatchTime).trim())?(''+m.MatchTime).trim():(mins+"\u2032");
+      LIVE={h:tName(m.HomeTeam),a:tName(m.AwayTeam),hs:m.HomeTeam.Score,as:m.AwayTeam.Score,min:mt,
+            grp:(((m.GroupName||[{}])[0])||{}).Description||''};
+    } else { LIVE=null; }
+  }).catch(function(){ LIVE=null; });
+}
+pollLive(); setInterval(pollLive, 25000);
+
+function showLive(g){
+  var cdMatch=document.getElementById('cd-match');
+  document.getElementById('cd-timer').style.display='none';
+  var liveEl=document.getElementById('cd-live'); liveEl.style.display='block';
+  cdMatch.className='cd-top live';
+  cdMatch.innerHTML='<span class="live-dot"></span>EN DIRECT';
+  liveEl.innerHTML='<div class="cd-live-teams">'+g.h+' <span class="sc">'+g.hs+'</span><span class="cd-live-dash">\u2013</span><span class="sc">'+g.as+'</span> '+g.a+'</div>'
+    +'<div class="cd-live-sub">\u23f1 '+g.min+(g.grp?(' \u00b7 '+g.grp):'')+'</div>';
+}
+
 var lastKey='';
 function tick(){
-  var lv=liveNow(), up=upcoming();
+  if(LIVE){ showLive(LIVE); return; }
+  var up=upcoming();
   var cdMatch=document.getElementById('cd-match');
-  var timer=document.getElementById('cd-timer');
-  var liveEl=document.getElementById('cd-live');
-  var stateKey = lv.length ? ('L'+lv[0].t+lv[0].h) : (up.length ? ('U'+up[0].t+up[0].h) : 'none');
-  if(stateKey!==lastKey){ lastKey=stateKey; renderList(up); }
-
-  if(lv.length){
-    var f=lv[0], k=new Date(f.t).getTime();
-    var mins=Math.max(1,Math.floor((Date.now()-k)/60000));
-    var elapsed = mins>120 ? "fin de match" : ("~"+mins+"\u2032");
-    cdMatch.className='cd-top live';
-    cdMatch.innerHTML='<span class="live-dot"></span>EN DIRECT';
-    timer.style.display='none';
-    liveEl.style.display='block';
-    liveEl.innerHTML='<div class="cd-live-teams">'+f.h+' <span style="color:#9fb3a6">🆚</span> '+f.a+'</div>'
-      +'<div class="cd-live-sub">\u23f1 '+elapsed+" \u00b7 coup d'envoi "+fTime(f.t)+(f.g?' \u00b7 '+f.g:'')+'</div>'
-      +'<a class="cd-live-link" href="'+FIFA+'" target="_blank" rel="noopener">\ud83d\udcca Voir le score en direct \u2192</a>';
-    return;
-  }
-
+  document.getElementById('cd-live').style.display='none';
+  document.getElementById('cd-timer').style.display='flex';
   cdMatch.className='cd-top';
-  liveEl.style.display='none';
-  timer.style.display='flex';
-  cdMatch.innerHTML = up.length ? ('\u23f3 Prochain \u00b7 '+up[0].h+' <span class="vs">🆚</span> '+up[0].a) : '🏆 Tournoi terminé — merci à tous !';
-  var target = up.length ? new Date(up[0].t).getTime() : new Date(FALLBACK).getTime();
+  var key=up.length?(up[0].t+up[0].h):'none';
+  if(key!==lastKey){ lastKey=key; renderList(up);
+    cdMatch.innerHTML = up.length ? ('\u23f3 Prochain \u00b7 '+up[0].h+' <span class="vs">\ud83c\udd9a</span> '+up[0].a) : '\ud83c\udfc6 Tournoi termin\u00e9 \u2014 merci \u00e0 tous !';
+  }
+  var target=up.length?new Date(up[0].t).getTime():new Date(FALLBACK).getTime();
   var d=target-Date.now(); if(d<0)d=0;
   document.getElementById('cd-d').textContent=Math.floor(d/86400000);
   document.getElementById('cd-h').textContent=String(Math.floor((d%86400000)/3600000)).padStart(2,'0');
   document.getElementById('cd-m').textContent=String(Math.floor((d%3600000)/60000)).padStart(2,'0');
   document.getElementById('cd-s').textContent=String(Math.floor((d%60000)/1000)).padStart(2,'0');
 }
-tick();
-setInterval(tick,1000);
+renderList(upcoming());
+tick(); setInterval(tick,1000);
 </script>
 </body>
 </html>
