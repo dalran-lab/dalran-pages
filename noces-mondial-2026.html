@@ -300,11 +300,12 @@ function pollLive(){
   fetch(FIFA_LIVE).then(function(r){ return r.json(); }).then(function(d){
     var now=Date.now();
     var wc=(d.Results||[]).filter(function(m){ return String(m.IdCompetition)==="17"; });
-    var live=wc.filter(function(m){ var k=new Date(m.Date).getTime(); return m.MatchStatus!==3 && k<=now && now<k+140*60000; });
+    var live=wc.filter(function(m){ var k=new Date(m.Date).getTime(); return m.MatchStatus===3 && k<=now && now<k+150*60000; });
     if(live.length){
-      var m=live[0]; var mins=Math.max(1,Math.floor((now-new Date(m.Date).getTime())/60000));
-      var mt=(m.MatchTime&&(''+m.MatchTime).trim())?(''+m.MatchTime).trim():(mins+"\u2032");
-      LIVE={h:tName(m.HomeTeam),a:tName(m.AwayTeam),hs:m.HomeTeam.Score,as:m.AwayTeam.Score,min:mt,
+      var m=live[0];
+      var raw=(m.MatchTime&&(''+m.MatchTime).trim())?(''+m.MatchTime).trim().replace(/'+$/,''):'';
+      var minute=raw?(raw+"\u2032"):(m.Period===4?"Mi-temps":"en cours");
+      LIVE={h:tName(m.HomeTeam),a:tName(m.AwayTeam),hs:m.HomeTeam.Score,as:m.AwayTeam.Score,min:minute,
             grp:(((m.GroupName||[{}])[0])||{}).Description||''};
     } else { LIVE=null; }
   }).catch(function(){ LIVE=null; });
