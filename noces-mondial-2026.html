@@ -133,6 +133,14 @@ section { padding: 26px 16px 6px; }
 footer { text-align: center; padding: 26px 20px 30px; color: #aab5ae; font-size: 0.7rem; line-height: 1.6; }
 
 .pill { display: inline-block; background: #eaf4ec; color: var(--pitch-d); font-size: 0.66rem; font-weight: 700; padding: 3px 9px; border-radius: 20px; letter-spacing: 0.04em; }
+
+.cd-live-wrap { text-align:center; padding:2px 0 1px; }
+.cd-live-teams { font-family:"Bricolage Grotesque"; font-weight:800; font-size:1.45rem; line-height:1.12; }
+.cd-live-sub { font-size:0.66rem; color:#9fb3a6; margin-top:5px; letter-spacing:0.03em; }
+.cd-live-link { display:inline-block; margin-top:9px; color:#7ee0a0; font-weight:700; font-size:0.78rem; text-decoration:none; }
+.cd-top.live { color:#ff7a7a; }
+.live-dot { display:inline-block; width:8px; height:8px; border-radius:50%; background:#ff3b30; margin-right:6px; vertical-align:middle; animation:pulse 1.2s infinite; }
+@keyframes pulse { 0%{opacity:1;transform:scale(1)} 50%{opacity:0.35;transform:scale(1.35)} 100%{opacity:1;transform:scale(1)} }
 </style>
 </head>
 <body>
@@ -147,8 +155,8 @@ footer { text-align: center; padding: 26px 20px 30px; color: #aab5ae; font-size:
 
 <!-- COUNTDOWN -->
 <div class="countdown">
-  <div class="cd-top" id="cd-match">⏳ Chargement du prochain match…</div>
-  <div class="cd-timer">
+  <div class="cd-top" id="cd-match">⏳ Chargement…</div>
+  <div class="cd-timer" id="cd-timer">
     <div class="cd-unit"><div class="cd-num" id="cd-d">–</div><div class="cd-name">jours</div></div>
     <div class="cd-sep">:</div>
     <div class="cd-unit"><div class="cd-num" id="cd-h">–</div><div class="cd-name">heures</div></div>
@@ -157,6 +165,7 @@ footer { text-align: center; padding: 26px 20px 30px; color: #aab5ae; font-size:
     <div class="cd-sep">:</div>
     <div class="cd-unit"><div class="cd-num" id="cd-s">–</div><div class="cd-name">sec</div></div>
   </div>
+  <div class="cd-live-wrap" id="cd-live" style="display:none"></div>
 </div>
 
 <!-- PROCHAINS MATCHS -->
@@ -168,24 +177,22 @@ footer { text-align: center; padding: 26px 20px 30px; color: #aab5ae; font-size:
 <script id="ng-data" type="application/json">[{"t": "2026-06-15T20:00:00+02:00", "h": "Belgium", "a": "Egypt", "g": "Group G"}, {"t": "2026-06-15T23:00:00+02:00", "h": "Saudi Arabia", "a": "Uruguay", "g": "Group H"}, {"t": "2026-06-16T02:00:00+02:00", "h": "Iran", "a": "New Zealand", "g": "Group G"}]</script>
 <!-- NEXTGAMES:END -->
 
-<!-- 1 · COMMENT JOUER -->
+<!-- 3 · CLASSEMENT -->
 <section>
-  <div class="sec-head"><div class="n">1</div><h2>Comment participer</h2></div>
-  <div class="step">
-    <div class="ico">①</div>
-    <div><div class="t">Clique sur le bouton vert</div><div class="d">Tu es déjà au bon endroit ! Appuie sur <b>« ⚽ Placer mes pronostics »</b> tout en bas de l'écran — il t'amène direct sur la page d'inscription Kicktipp des noces.org.</div></div>
+  <div class="sec-head"><div class="n">1</div><h2>Le classement</h2></div>
+  <!-- LEADERBOARD:START -->
+  <div class="lb-note">🔴 Classement en direct · 6 inscrit(s) · maj 15/06 07:51</div>
+  <div class="lb">
+    <div class="lb-row p1"><div class="lb-rank">1</div><div class="lb-move mv-eq">–</div><div class="lb-name"><span class="emo">🐲</span>Marc_the_shark<span class="medal">🥇</span></div><div class="lb-pts">14<span> pts</span></div></div>
+    <div class="lb-row p2"><div class="lb-rank">2</div><div class="lb-move mv-up">▲1</div><div class="lb-name"><span class="emo">🐐</span>Car11t0<span class="medal">🥈</span></div><div class="lb-pts">14<span> pts</span></div></div>
+    <div class="lb-row p3"><div class="lb-rank">3</div><div class="lb-move mv-dn">▼1</div><div class="lb-name"><span class="emo">🦄</span>Gegs<span class="medal">🥉</span></div><div class="lb-pts">12<span> pts</span></div></div>
+    <div class="lb-row"><div class="lb-rank">4</div><div class="lb-move mv-eq">–</div><div class="lb-name"><span class="emo">🐐</span>Dalran</div><div class="lb-pts">11<span> pts</span></div></div>
+    <div class="lb-row"><div class="lb-rank">5</div><div class="lb-move mv-eq">–</div><div class="lb-name"><span class="emo">🐗</span>Oso</div><div class="lb-pts">8<span> pts</span></div></div>
+    <div class="lb-row"><div class="lb-rank">6</div><div class="lb-move mv-dn">▼1</div><div class="lb-name"><span class="emo">🐧</span>Greg</div><div class="lb-pts">6<span> pts</span></div></div>
   </div>
-  <div class="step">
-    <div class="ico">②</div>
-    <div><div class="t">Inscris-toi avec un pseudo qui déchire</div><div class="d">Crée ton compte Kicktipp et choisis le <b>nom le plus drôle possible</b> 🎭 — c'est lui qui s'affichera en haut (ou tout en bas…) du classement. <b>Un compte = une place.</b></div></div>
-  </div>
-  <div class="step">
-    <div class="ico">③</div>
-    <div><div class="t">Pronostique les 104 matchs</div><div class="d">Donne ton score exact pour chaque match 🎯. Modifiable jusqu'au <b>coup d'envoi</b> de la rencontre. Puis reviens ici suivre le classement en direct 👇</div></div>
-  </div>
-  <div class="tip">
-    <div class="ti">📱</div>
-    <div class="tt"><b>Conseil de pro :</b> inscris-toi d'abord ici dans le navigateur, puis installe l'<b>appli Kicktipp</b> et connecte-toi avec le même compte. Surtout, <b>active les notifications</b> — l'appli te rappelle de pronostiquer avant chaque coup d'envoi. Zéro prono oublié, zéro point perdu. 🏆</div>
+  <!-- LEADERBOARD:END -->
+  <div style="text-align:center;margin-top:14px;">
+    <span class="pill">▲ ▼ – montre ta progression depuis le dernier match</span>
   </div>
 </section>
 
@@ -216,32 +223,34 @@ footer { text-align: center; padding: 26px 20px 30px; color: #aab5ae; font-size:
   <p style="font-size:0.7rem;color:var(--muted);margin-top:10px;padding:0 2px;">Barème officiel Kicktipp (règle 4-3-2) + 15 questions bonus à 4 pts. Le moteur de jeu, le calcul des points et le classement en direct sont gérés par Kicktipp.</p>
 </section>
 
-<!-- 3 · CLASSEMENT -->
-<section>
-  <div class="sec-head"><div class="n">3</div><h2>Le classement</h2></div>
-  <!-- LEADERBOARD:START -->
-  <div class="lb-note">🔴 Classement en direct · 6 inscrit(s) · maj 15/06 07:51</div>
-  <div class="lb">
-    <div class="lb-row p1"><div class="lb-rank">1</div><div class="lb-move mv-eq">–</div><div class="lb-name"><span class="emo">🐲</span>Marc_the_shark<span class="medal">🥇</span></div><div class="lb-pts">14<span> pts</span></div></div>
-    <div class="lb-row p2"><div class="lb-rank">2</div><div class="lb-move mv-up">▲1</div><div class="lb-name"><span class="emo">🐐</span>Car11t0<span class="medal">🥈</span></div><div class="lb-pts">14<span> pts</span></div></div>
-    <div class="lb-row p3"><div class="lb-rank">3</div><div class="lb-move mv-dn">▼1</div><div class="lb-name"><span class="emo">🦄</span>Gegs<span class="medal">🥉</span></div><div class="lb-pts">12<span> pts</span></div></div>
-    <div class="lb-row"><div class="lb-rank">4</div><div class="lb-move mv-eq">–</div><div class="lb-name"><span class="emo">🐐</span>Dalran</div><div class="lb-pts">11<span> pts</span></div></div>
-    <div class="lb-row"><div class="lb-rank">5</div><div class="lb-move mv-eq">–</div><div class="lb-name"><span class="emo">🐗</span>Oso</div><div class="lb-pts">8<span> pts</span></div></div>
-    <div class="lb-row"><div class="lb-rank">6</div><div class="lb-move mv-dn">▼1</div><div class="lb-name"><span class="emo">🐧</span>Greg</div><div class="lb-pts">6<span> pts</span></div></div>
-  </div>
-  <!-- LEADERBOARD:END -->
-  <div style="text-align:center;margin-top:14px;">
-    <span class="pill">▲ ▼ – montre ta progression depuis le dernier match</span>
-  </div>
-</section>
-
 <!-- 4 · CALENDRIER -->
 <section>
-  <div class="sec-head"><div class="n">4</div><h2>Le calendrier</h2></div>
+  <div class="sec-head"><div class="n">3</div><h2>Le calendrier</h2></div>
   <div class="cal">
     <div class="big">11 juin → 19 juillet 2026</div>
     <div class="sub">48 équipes · 104 matchs · 16 villes hôtes 🇺🇸 🇨🇦 🇲🇽</div>
     <a class="cal-link" href="https://www.fifa.com/fr/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures" target="_blank" rel="noopener">📅 Voir tous les matchs sur FIFA.com →</a>
+  </div>
+</section>
+
+<!-- 1 · COMMENT JOUER -->
+<section>
+  <div class="sec-head"><div class="n">4</div><h2>Comment participer</h2></div>
+  <div class="step">
+    <div class="ico">①</div>
+    <div><div class="t">Clique sur le bouton vert</div><div class="d">Tu es déjà au bon endroit ! Appuie sur <b>« ⚽ Placer mes pronostics »</b> tout en bas de l'écran — il t'amène direct sur la page d'inscription Kicktipp des noces.org.</div></div>
+  </div>
+  <div class="step">
+    <div class="ico">②</div>
+    <div><div class="t">Inscris-toi avec un pseudo qui déchire</div><div class="d">Crée ton compte Kicktipp et choisis le <b>nom le plus drôle possible</b> 🎭 — c'est lui qui s'affichera en haut (ou tout en bas…) du classement. <b>Un compte = une place.</b></div></div>
+  </div>
+  <div class="step">
+    <div class="ico">③</div>
+    <div><div class="t">Pronostique les 104 matchs</div><div class="d">Donne ton score exact pour chaque match 🎯. Modifiable jusqu'au <b>coup d'envoi</b> de la rencontre. Puis reviens ici suivre le classement en direct 👇</div></div>
+  </div>
+  <div class="tip">
+    <div class="ti">📱</div>
+    <div class="tt"><b>Conseil de pro :</b> inscris-toi d'abord ici dans le navigateur, puis installe l'<b>appli Kicktipp</b> et connecte-toi avec le même compte. Surtout, <b>active les notifications</b> — l'appli te rappelle de pronostiquer avant chaque coup d'envoi. Zéro prono oublié, zéro point perdu. 🏆</div>
   </div>
 </section>
 
@@ -257,54 +266,69 @@ footer { text-align: center; padding: 26px 20px 30px; color: #aab5ae; font-size:
 </div>
 
 <script>
-// ===== Kicktipp round link (à mettre à jour avec l'URL réelle de la Tipprunde) =====
 var KICKTIPP_URL = "https://www.kicktipp.co.uk/noces-org/";
 document.getElementById('play-btn').setAttribute('href', KICKTIPP_URL);
 
-// ===== Fixtures-driven countdown + next matches =====
-// Data injected every 3h by the Dalran sync job (from Kicktipp's public schedule).
 var FIXT = [];
 try { FIXT = JSON.parse(document.getElementById('ng-data').textContent) || []; } catch (e) { FIXT = []; }
 FIXT.sort(function (a, b) { return new Date(a.t) - new Date(b.t); });
-var FALLBACK = "2026-06-11T20:00:00+02:00";  // opener, until data lands
+var FALLBACK = "2026-06-11T20:00:00+02:00";
 var TZ = { timeZone: "Europe/Zurich" };
+var LIVE_MIN = 130;
+var FIFA = "https://www.fifa.com/fr/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures";
 
-function upcoming() { var n = Date.now(); return FIXT.filter(function (f) { return new Date(f.t).getTime() > n; }); }
-function fDay(iso) { return new Date(iso).toLocaleDateString('fr-FR', Object.assign({ day: '2-digit', month: '2-digit' }, TZ)); }
-function fTime(iso) { return new Date(iso).toLocaleTimeString('fr-FR', Object.assign({ hour: '2-digit', minute: '2-digit' }, TZ)); }
+function upcoming(){ var n=Date.now(); return FIXT.filter(function(f){return new Date(f.t).getTime()>n;}); }
+function liveNow(){ var n=Date.now(); return FIXT.filter(function(f){var k=new Date(f.t).getTime(); return k<=n && n<k+LIVE_MIN*60000;}); }
+function fDay(iso){ return new Date(iso).toLocaleDateString('fr-FR', Object.assign({day:'2-digit',month:'2-digit'},TZ)); }
+function fTime(iso){ return new Date(iso).toLocaleTimeString('fr-FR', Object.assign({hour:'2-digit',minute:'2-digit'},TZ)); }
 
-function renderList(up) {
-  var el = document.getElementById('ng-list');
-  if (!up.length) { el.innerHTML = '<div class="ng-empty">🏆 Le Mondial est terminé — bravo à tous !</div>'; return; }
-  el.innerHTML = up.slice(0, 3).map(function (f, i) {
-    return '<div class="ng-row' + (i === 0 ? ' is-next' : '') + '">'
-      + '<div class="ng-when"><div class="day">' + fDay(f.t) + '</div><div class="time">' + fTime(f.t) + '</div></div>'
-      + '<div class="ng-teams">' + f.h + '<span class="vs">🆚</span>' + f.a + '</div>'
-      + (f.g ? '<div class="ng-grp">' + f.g + '</div>' : '')
-      + '</div>';
+function renderList(up){
+  var el=document.getElementById('ng-list');
+  if(!up.length){ el.innerHTML='<div class="ng-empty">🏆 Le Mondial est terminé — bravo à tous !</div>'; return; }
+  el.innerHTML=up.slice(0,3).map(function(f,i){
+    return '<div class="ng-row'+(i===0?' is-next':'')+'">'
+      +'<div class="ng-when"><div class="day">'+fDay(f.t)+'</div><div class="time">'+fTime(f.t)+'</div></div>'
+      +'<div class="ng-teams">'+f.h+'<span class="vs">🆚</span>'+f.a+'</div>'
+      +(f.g?'<div class="ng-grp">'+f.g+'</div>':'')+'</div>';
   }).join('');
 }
 
-var lastKey = '';
-function tick() {
-  var up = upcoming();
-  var target = up.length ? new Date(up[0].t).getTime() : new Date(FALLBACK).getTime();
-  var key = up.length ? (up[0].t + up[0].h) : 'none';
-  if (key !== lastKey) {
-    lastKey = key;
-    renderList(up);
-    document.getElementById('cd-match').innerHTML = up.length
-      ? ('⚽ ' + up[0].h + ' <span class="vs">🆚</span> ' + up[0].a)
-      : '🏆 Tournoi terminé — merci à tous !';
+var lastKey='';
+function tick(){
+  var lv=liveNow(), up=upcoming();
+  var cdMatch=document.getElementById('cd-match');
+  var timer=document.getElementById('cd-timer');
+  var liveEl=document.getElementById('cd-live');
+  var stateKey = lv.length ? ('L'+lv[0].t+lv[0].h) : (up.length ? ('U'+up[0].t+up[0].h) : 'none');
+  if(stateKey!==lastKey){ lastKey=stateKey; renderList(up); }
+
+  if(lv.length){
+    var f=lv[0], k=new Date(f.t).getTime();
+    var mins=Math.max(1,Math.floor((Date.now()-k)/60000));
+    var elapsed = mins>120 ? "fin de match" : ("~"+mins+"\u2032");
+    cdMatch.className='cd-top live';
+    cdMatch.innerHTML='<span class="live-dot"></span>EN DIRECT';
+    timer.style.display='none';
+    liveEl.style.display='block';
+    liveEl.innerHTML='<div class="cd-live-teams">'+f.h+' <span style="color:#9fb3a6">🆚</span> '+f.a+'</div>'
+      +'<div class="cd-live-sub">\u23f1 '+elapsed+" \u00b7 coup d'envoi "+fTime(f.t)+(f.g?' \u00b7 '+f.g:'')+'</div>'
+      +'<a class="cd-live-link" href="'+FIFA+'" target="_blank" rel="noopener">\ud83d\udcca Voir le score en direct \u2192</a>';
+    return;
   }
-  var d = target - Date.now(); if (d < 0) d = 0;
-  document.getElementById('cd-d').textContent = Math.floor(d / 86400000);
-  document.getElementById('cd-h').textContent = String(Math.floor((d % 86400000) / 3600000)).padStart(2, '0');
-  document.getElementById('cd-m').textContent = String(Math.floor((d % 3600000) / 60000)).padStart(2, '0');
-  document.getElementById('cd-s').textContent = String(Math.floor((d % 60000) / 1000)).padStart(2, '0');
+
+  cdMatch.className='cd-top';
+  liveEl.style.display='none';
+  timer.style.display='flex';
+  cdMatch.innerHTML = up.length ? ('\u23f3 Prochain \u00b7 '+up[0].h+' <span class="vs">🆚</span> '+up[0].a) : '🏆 Tournoi terminé — merci à tous !';
+  var target = up.length ? new Date(up[0].t).getTime() : new Date(FALLBACK).getTime();
+  var d=target-Date.now(); if(d<0)d=0;
+  document.getElementById('cd-d').textContent=Math.floor(d/86400000);
+  document.getElementById('cd-h').textContent=String(Math.floor((d%86400000)/3600000)).padStart(2,'0');
+  document.getElementById('cd-m').textContent=String(Math.floor((d%3600000)/60000)).padStart(2,'0');
+  document.getElementById('cd-s').textContent=String(Math.floor((d%60000)/1000)).padStart(2,'0');
 }
 tick();
-setInterval(tick, 1000);
+setInterval(tick,1000);
 </script>
 </body>
 </html>
