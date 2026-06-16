@@ -176,7 +176,7 @@ footer { text-align: center; padding: 26px 20px 30px; color: #aab5ae; font-size:
   <div class="ng-list" id="ng-list"><div class="ng-empty">⏳ Chargement du calendrier…</div></div>
 </div>
 <!-- NEXTGAMES:START -->
-<script id="ng-data" type="application/json">[]</script>
+<script id="ng-data" type="application/json">[{"t": "2026-06-16T19:00:00+00:00", "h": "France", "a": "Senegal", "g": "Group I"}, {"t": "2026-06-17T01:00:00+00:00", "h": "Argentina", "a": "Algeria", "g": "Group J"}, {"t": "2026-06-17T04:00:00+00:00", "h": "Austria", "a": "Jordan", "g": "Group J"}, {"t": "2026-06-17T20:00:00+00:00", "h": "England", "a": "Croatia", "g": "Group L"}, {"t": "2026-06-18T02:00:00+00:00", "h": "Uzbekistan", "a": "Colombia", "g": "Group K"}, {"t": "2026-06-18T22:00:00+00:00", "h": "Canada", "a": "Qatar", "g": "Group B"}, {"t": "2026-06-19T01:00:00+00:00", "h": "Mexico", "a": "South Korea", "g": "Group A"}, {"t": "2026-06-19T19:00:00+00:00", "h": "USA", "a": "Australia", "g": "Group D"}, {"t": "2026-06-19T22:00:00+00:00", "h": "Scotland", "a": "Morocco", "g": "Group C"}, {"t": "2026-06-20T00:30:00+00:00", "h": "Brazil", "a": "Haiti", "g": "Group C"}, {"t": "2026-06-20T20:00:00+00:00", "h": "Germany", "a": "Ivory Coast", "g": "Group E"}, {"t": "2026-06-21T00:00:00+00:00", "h": "Ecuador", "a": "Curaçao", "g": "Group E"}]</script>
 <!-- NEXTGAMES:END -->
 
 <!-- 3 · CLASSEMENT -->
@@ -281,9 +281,10 @@ function upcoming(){ var n=Date.now(); return FIXT.filter(function(f){return new
 function fDay(iso){ return new Date(iso).toLocaleDateString('fr-FR', Object.assign({day:'2-digit',month:'2-digit'},TZ)); }
 function fTime(iso){ return new Date(iso).toLocaleTimeString('fr-FR', Object.assign({hour:'2-digit',minute:'2-digit'},TZ)); }
 
+function over(){ return Date.now() > Date.parse("2026-07-20T00:00:00+02:00"); }
 function renderList(up){
   var el=document.getElementById('ng-list');
-  if(!up.length){ el.innerHTML='<div class="ng-empty">\ud83c\udfc6 Le Mondial est termin\u00e9 \u2014 bravo \u00e0 tous !</div>'; return; }
+  if(!up.length){ el.innerHTML='<div class="ng-empty">'+(over()?'\ud83c\udfc6 Le Mondial est termin\u00e9 \u2014 bravo \u00e0 tous !':'\u23f3 Calendrier en cours de mise \u00e0 jour\u2026')+'</div>'; return; }
   el.innerHTML=up.slice(0,3).map(function(f,i){
     return '<div class="ng-row'+(i===0?' is-next':'')+'">'
       +'<div class="ng-when"><div class="day">'+fDay(f.t)+'</div><div class="time">'+fTime(f.t)+'</div></div>'
@@ -332,7 +333,7 @@ function tick(){
   cdMatch.className='cd-top';
   var key=up.length?(up[0].t+up[0].h):'none';
   if(key!==lastKey){ lastKey=key; renderList(up);
-    cdMatch.innerHTML = up.length ? ('\u23f3 Prochain \u00b7 '+up[0].h+' <span class="vs">\ud83c\udd9a</span> '+up[0].a) : '\ud83c\udfc6 Tournoi termin\u00e9 \u2014 merci \u00e0 tous !';
+    cdMatch.innerHTML = up.length ? ('\u23f3 Prochain \u00b7 '+up[0].h+' <span class="vs">\ud83c\udd9a</span> '+up[0].a) : (over()?'\ud83c\udfc6 Tournoi termin\u00e9 \u2014 merci \u00e0 tous !':'\u26bd Prochain match \u00e0 venir\u2026');
   }
   var target=up.length?new Date(up[0].t).getTime():new Date(FALLBACK).getTime();
   var d=target-Date.now(); if(d<0)d=0;
