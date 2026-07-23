@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Archive — Denmark Daily</title>
+<meta name="description" content="Browse every Denmark Daily entry. Filter by category, search by keyword.">
+<meta property="og:title" content="Archive — Denmark Daily">
+<meta property="og:description" content="Browse every Denmark Daily entry. Filter by category, search by keyword.">
+<meta property="og:type" content="website">
+<link rel="stylesheet" href="/dalran-pages/denmark-daily/assets/style.css">
+
+</head>
+<body>
+<header class="site">
+  <a class="brand" href="/dalran-pages/denmark-daily/index.html">
+    <span class="mark"></span>
+    <span class="wordmark">Denmark&nbsp;Daily</span>
+  </a>
+  <nav><a href="/dalran-pages/denmark-daily/index.html" class="">Today</a><a href="/dalran-pages/denmark-daily/archive.html" class="on">Archive</a></nav>
+</header>
+<main>
+
+<h1 class="archive-title">Archive</h1>
+<p class="lead">Every entry so far — newest first. Filter by category or search by keyword.</p>
+<div class="controls">
+  <input id="search" type="search" placeholder="Search entries…" autocomplete="off" aria-label="Search entries">
+  <div id="chips" class="chips"></div>
+</div>
+<div id="list" class="grid archive-grid"></div>
+<p id="empty" class="empty" hidden>No entries match.</p>
+<script>
+const BASE = "/dalran-pages/denmark-daily";
+fetch(BASE + "/data/entries.json").then(r=>r.json()).then(function(all){
+  const list=document.getElementById('list'), chipsEl=document.getElementById('chips'),
+        search=document.getElementById('search'), empty=document.getElementById('empty');
+  let cat='all', q='';
+  const cats=['all'].concat([...new Set(all.map(e=>e.category))]);
+  chipsEl.innerHTML=cats.map((c,i)=>`<button class="chip${i===0?' on':''}" data-c="${c}">${c==='all'?'All':c}</button>`).join('');
+  function esc(s){return s.replace(/[&<>"]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]));}
+  function render(){
+    const items=all.filter(e=>(cat==='all'||e.category===cat) &&
+      (q===''||(e.title+' '+e.excerpt+' '+e.category).toLowerCase().includes(q)));
+    empty.hidden=items.length>0;
+    list.innerHTML=items.map(e=>`<a class="card" href="${BASE}/entry/${e.slug}.html">
+      <div class="meta"><time>${e.pretty}</time><span class="dot">·</span><span class="wd">${e.weekday}</span>
+      <span class="badge" data-cat="${e.cat_slug}">${esc(e.category)}</span></div>
+      <h2>${esc(e.title)}</h2><p class="dek">${esc(e.excerpt)}</p><span class="more">Read →</span></a>`).join('');
+  }
+  chipsEl.addEventListener('click',e=>{if(e.target.dataset.c){cat=e.target.dataset.c;
+    [...chipsEl.children].forEach(b=>b.classList.toggle('on',b===e.target));render();}});
+  search.addEventListener('input',()=>{q=search.value.trim().toLowerCase();render();});
+  render();
+});
+</script>
+</main>
+<footer class="site">
+  <p><strong>Denmark Daily</strong> — one entry a day on Danish history, culture, and life, for a curious newcomer.</p>
+  <p class="fine">Published every morning at 06:00 Europe/Copenhagen. Images are public-domain or Creative Commons, credited under each. Built &amp; maintained by Dalran.</p>
+</footer>
+</body>
+</html>

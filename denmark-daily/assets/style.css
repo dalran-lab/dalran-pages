@@ -1,0 +1,126 @@
+/* Denmark Daily — calm editorial design. Mobile-first (base = ~390px). */
+:root{
+  --paper:#faf8f4; --ink:#1c1a17; --soft:#5c574f; --faint:#8a847a;
+  --line:#e6e1d8; --card:#fffdf9; --red:#c8102e; --red-ink:#9a0c23;
+  --serif:"Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua",Georgia,serif;
+  --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  --measure:34rem;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0;background:var(--paper);color:var(--ink);
+  font-family:var(--serif);font-size:1.18rem;line-height:1.66;
+  -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;
+}
+img{max-width:100%;height:auto;display:block}
+a{color:var(--red-ink);text-decoration:none}
+a:hover{text-decoration:underline;text-underline-offset:2px}
+
+/* ---- header / footer ---- */
+header.site{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:1rem 1.25rem;border-bottom:1px solid var(--line);
+  position:sticky;top:0;background:rgba(250,248,244,.92);backdrop-filter:saturate(1.2) blur(6px);z-index:5;
+}
+.brand{display:flex;align-items:center;gap:.55rem;color:var(--ink)}
+.brand:hover{text-decoration:none}
+.brand .mark{width:1.1rem;height:1.1rem;border-radius:2px;background:var(--red);
+  box-shadow:inset -0.34rem 0 0 0 var(--paper),inset -0.5rem 0 0 0 var(--red)}
+.wordmark{font-weight:600;letter-spacing:.01em;font-size:1.15rem}
+header.site nav{display:flex;gap:1.1rem;font-family:var(--sans);font-size:.86rem}
+header.site nav a{color:var(--soft);text-transform:uppercase;letter-spacing:.08em}
+header.site nav a.on{color:var(--ink);font-weight:600}
+
+main{padding:1.5rem 1.25rem 3rem}
+
+footer.site{border-top:1px solid var(--line);padding:2rem 1.25rem 3rem;color:var(--soft);
+  font-family:var(--sans);font-size:.9rem;max-width:var(--measure);margin:0 auto}
+footer.site .fine{color:var(--faint);font-size:.8rem;margin-top:.4rem}
+
+/* ---- meta + badges ---- */
+.meta{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem;
+  font-family:var(--sans);font-size:.8rem;color:var(--faint);margin-bottom:.6rem}
+.meta time{font-weight:600;color:var(--soft)}
+.meta .dot{color:var(--line)}
+.meta .wd{}
+.badge{font-family:var(--sans);font-size:.7rem;font-weight:600;letter-spacing:.04em;
+  text-transform:uppercase;padding:.16rem .5rem;border-radius:999px;color:#fff;background:#8a847a;margin-left:auto}
+.badge[data-cat=history]{background:#7c5e3b}
+.badge[data-cat=vikings]{background:#4a5a3f}
+.badge[data-cat=monarchy]{background:#8a2b3a}
+.badge[data-cat=politics]{background:#3f5464}
+.badge[data-cat=art-design]{background:#9a6a2f}
+.badge[data-cat=literature]{background:#5b4a7a}
+.badge[data-cat=music]{background:#8a4a63}
+.badge[data-cat=film]{background:#40484f}
+.badge[data-cat=sport]{background:#2f6d5a}
+.badge[data-cat=food]{background:#a4562b}
+.badge[data-cat=language]{background:#6a5636}
+.badge[data-cat=science]{background:#356070}
+.badge[data-cat=society]{background:#5a6b52}
+.badge[data-cat=geography]{background:#3d6b8a}
+
+/* ---- entry / article ---- */
+.kicker{font-family:var(--sans);text-transform:uppercase;letter-spacing:.12em;
+  font-size:.72rem;color:var(--red-ink);font-weight:700;margin:.2rem 0 1rem}
+.entry{max-width:var(--measure);margin:0 auto}
+.entry h1{font-size:2rem;line-height:1.16;letter-spacing:-.01em;margin:.1rem 0 1rem;font-weight:600}
+.entry .prose>p:first-of-type{font-size:1.02em}
+.prose p{margin:0 0 1.15rem}
+.prose h2{font-size:1.3rem;margin:2rem 0 .6rem;font-weight:600}
+.entry figure{margin:1.4rem 0}
+.entry figure img{width:100%;border-radius:6px;border:1px solid var(--line)}
+.entry figcaption{font-family:var(--sans);font-size:.74rem;color:var(--faint);margin-top:.45rem}
+
+.back,.allink a{font-family:var(--sans);font-size:.85rem}
+.back{display:inline-block;color:var(--soft);margin-bottom:1.2rem}
+
+.readmore,.deeper{max-width:var(--measure);margin:2rem auto 0;padding-top:1.2rem;border-top:1px solid var(--line)}
+.readmore h3,.deeper h3{font-family:var(--sans);font-size:.78rem;text-transform:uppercase;
+  letter-spacing:.1em;color:var(--faint);margin:0 0 .6rem}
+.readmore ul{margin:0;padding-left:1.1rem}
+.readmore li{margin:.3rem 0}
+.deeper{margin-top:1.4rem}
+.deeper ol{margin:0;padding-left:1.2rem;color:var(--soft)}
+.deeper li{margin:.4rem 0;font-style:italic}
+
+/* ---- cards / grid ---- */
+.recent{max-width:var(--measure);margin:2.5rem auto 0}
+.rule{font-family:var(--sans);font-size:.8rem;text-transform:uppercase;letter-spacing:.12em;
+  color:var(--faint);border-top:1px solid var(--line);padding-top:1.2rem;font-weight:700}
+.grid{display:grid;grid-template-columns:1fr;gap:1rem;margin-top:1rem}
+.card{display:block;background:var(--card);border:1px solid var(--line);border-radius:8px;
+  padding:1.1rem 1.15rem;color:var(--ink)}
+.card:hover{text-decoration:none;border-color:#d8d1c4;box-shadow:0 4px 18px rgba(40,34,24,.06);transform:translateY(-1px);transition:.15s}
+.card h2{font-size:1.22rem;line-height:1.25;margin:.1rem 0 .5rem;font-weight:600}
+.card .dek{font-size:.92rem;color:var(--soft);line-height:1.5;margin:0 0 .7rem}
+.card .more{font-family:var(--sans);font-size:.8rem;color:var(--red-ink);font-weight:600}
+.allink{margin-top:1.3rem}
+
+/* ---- archive controls ---- */
+.archive-title{font-size:1.9rem;font-weight:600;max-width:var(--measure);margin:.2rem auto .3rem}
+.lead{max-width:var(--measure);margin:0 auto 1.3rem;color:var(--soft);font-size:1rem}
+.controls{max-width:var(--measure);margin:0 auto 1.2rem}
+#search{width:100%;font-family:var(--sans);font-size:1rem;padding:.7rem .9rem;
+  border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink)}
+#search:focus{outline:2px solid var(--red);outline-offset:1px;border-color:var(--red)}
+.chips{display:flex;flex-wrap:wrap;gap:.4rem;margin-top:.8rem}
+.chip{font-family:var(--sans);font-size:.78rem;padding:.32rem .7rem;border-radius:999px;
+  border:1px solid var(--line);background:var(--card);color:var(--soft);cursor:pointer}
+.chip.on{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.archive-grid{max-width:var(--measure);margin:0 auto}
+.empty{max-width:var(--measure);margin:2rem auto;color:var(--faint);text-align:center;font-family:var(--sans)}
+
+/* ---- larger screens ---- */
+@media(min-width:680px){
+  main{padding:2.5rem 2rem 4rem}
+  .entry h1{font-size:2.5rem}
+  body{font-size:1.2rem}
+}
+@media(min-width:900px){
+  .recent,.archive-grid{max-width:60rem}
+  .grid{grid-template-columns:1fr 1fr}
+  .recent .rule,.allink{grid-column:1/-1}
+  .archive-title,.lead,.controls{max-width:60rem}
+}
