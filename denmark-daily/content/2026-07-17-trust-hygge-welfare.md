@@ -5,7 +5,7 @@ date: 2026-07-17
 sources:
   - World Happiness Report | https://worldhappiness.report/
   - The Law of Jante — Britannica | https://www.britannica.com/topic/Jante-Law
-  - danmarkshistorien.dk (English) | https://danmarkshistorien.dk/en
+  - The National Museum of Denmark | https://en.natmus.dk/
 followups:
   - Where does Danish social trust actually come from, historically?
   - How is immigration testing the universal welfare model today?

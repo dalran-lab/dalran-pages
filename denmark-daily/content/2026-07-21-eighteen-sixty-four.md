@@ -5,7 +5,7 @@ date: 2026-07-21
 sources:
   - Second Schleswig War — Britannica | https://www.britannica.com/event/Second-Schleswig-War
   - Denmark, history — Britannica | https://www.britannica.com/place/Denmark
-  - danmarkshistorien.dk (English) | https://danmarkshistorien.dk/en
+  - The National Museum of Denmark | https://en.natmus.dk/
 followups:
   - How did the defeat of 1864 shape the Danish cooperative movement and welfare state?
   - What is the story of the 1920 plebiscite and today's Danish–German border minorities?

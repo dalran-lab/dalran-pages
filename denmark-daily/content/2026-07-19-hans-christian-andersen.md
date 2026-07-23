@@ -5,7 +5,6 @@ date: 2026-07-19
 sources:
   - Hans Christian Andersen — Britannica | https://www.britannica.com/biography/Hans-Christian-Andersen
   - H.C. Andersens Hus, Odense | https://www.hcandersenshus.dk/en
-  - danmarkshistorien.dk (English) | https://danmarkshistorien.dk/en
 followups:
   - Which of Andersen's tales were most autobiographical, and how?
   - How did his rise from poverty reflect the social order of 19th-century Denmark?
