@@ -2,6 +2,10 @@
 title: Stauning or Chaos — The Architect of the Welfare State
 category: Politics
 date: 2026-07-24
+image: assets/images/stauning-welfare-state.jpg
+image_credit: Francis Zachariae (1852–1936) / Wikimedia Commons
+image_licence: Public domain
+image_alt: Thorvald August Marinus Stauning (26. oktober 1873 - 3. maj 1942), Søn af Karetmager P.A. Stauning og hustru f. Hansen. Dansk socialdemokrat
 sources:
   - Thorvald Stauning — Britannica | https://www.britannica.com/biography/Thorvald-Stauning
   - Denmark, history — Britannica | https://www.britannica.com/place/Denmark

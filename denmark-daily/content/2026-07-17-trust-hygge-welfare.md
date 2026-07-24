@@ -2,6 +2,10 @@
 title: The Operating System of Danish Life — Trust, Hygge and Welfare
 category: Society
 date: 2026-07-17
+image: assets/images/trust-hygge-welfare.jpg
+image_credit: Dietmar Rabich / Wikimedia Commons
+image_licence: CC BY-SA 4.0
+image_alt: Sheet metal at Nyhavn, Copenhagen, Denmark
 sources:
   - World Happiness Report | https://worldhappiness.report/
   - The Law of Jante — Britannica | https://www.britannica.com/topic/Jante-Law

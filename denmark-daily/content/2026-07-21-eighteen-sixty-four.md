@@ -2,6 +2,10 @@
 title: 1864 — The War That Shrank Denmark
 category: History
 date: 2026-07-21
+image: assets/images/eighteen-sixty-four.jpg
+image_credit: Vilhelm Rosenstand / Wikimedia Commons
+image_licence: Public domain
+image_alt: 8 brigades angreb ved Dybbøl 1864.jpg
 sources:
   - Second Schleswig War — Britannica | https://www.britannica.com/event/Second-Schleswig-War
   - Denmark, history — Britannica | https://www.britannica.com/place/Denmark

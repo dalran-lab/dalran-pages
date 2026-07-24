@@ -2,6 +2,10 @@
 title: How Copenhagen Reinvented Dinner — noma and New Nordic
 category: Food
 date: 2026-07-18
+image: assets/images/noma-new-nordic.jpg
+image_credit: Thomas Martinsen faceline / Wikimedia Commons
+image_licence: CC0
+image_alt: Torvehallerne, København K, Denmark
 sources:
   - noma — official site | https://noma.dk
   - New Nordic Food — Nordic Council (norden.org) | https://www.norden.org/en

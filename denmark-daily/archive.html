@@ -9,6 +9,7 @@
 <meta property="og:description" content="Browse every Denmark Daily entry. Filter by category, search by keyword.">
 <meta property="og:type" content="website">
 <link rel="stylesheet" href="/dalran-pages/denmark-daily/assets/style.css">
+<script src="/dalran-pages/denmark-daily/assets/fav.js" defer></script>
 
 </head>
 <body>
@@ -35,18 +36,23 @@ fetch(BASE + "/data/entries.json").then(r=>r.json()).then(function(all){
   const list=document.getElementById('list'), chipsEl=document.getElementById('chips'),
         search=document.getElementById('search'), empty=document.getElementById('empty');
   let cat='all', q='';
-  const cats=['all'].concat([...new Set(all.map(e=>e.category))]);
-  chipsEl.innerHTML=cats.map((c,i)=>`<button class="chip${i===0?' on':''}" data-c="${c}">${c==='all'?'All':c}</button>`).join('');
+  const cats=[['all','All'],['__fav__','★ Favourites']].concat([...new Set(all.map(e=>e.category))].map(c=>[c,c]));
   function esc(s){return s.replace(/[&<>"]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]));}
+  chipsEl.innerHTML=cats.map((c,i)=>`<button class="chip${i===0?' on':''}" data-c="${c[0]}">${esc(c[1])}</button>`).join('');
   function render(){
-    const items=all.filter(e=>(cat==='all'||e.category===cat) &&
+    const favok=(e)=> cat!=='__fav__' || (window.ddFav && window.ddFav.isFav(e.slug));
+    const items=all.filter(e=>(cat==='all'||cat==='__fav__'||e.category===cat) && favok(e) &&
       (q===''||(e.title+' '+e.excerpt+' '+e.category).toLowerCase().includes(q)));
     empty.hidden=items.length>0;
+    empty.textContent = (cat==='__fav__' && items.length===0) ? 'No favourites yet — tap the ☆ on any story to save it.' : 'No entries match.';
     list.innerHTML=items.map(e=>`<a class="card" href="${BASE}/entry/${e.slug}.html">
       <div class="meta"><time>${e.pretty}</time><span class="dot">·</span><span class="wd">${e.weekday}</span>
-      <span class="badge" data-cat="${e.cat_slug}">${esc(e.category)}</span></div>
+      <span class="badge" data-cat="${e.cat_slug}">${esc(e.category)}</span>
+      <button class="star" data-slug="${e.slug}" aria-label="Save to favourites">☆</button></div>
       <h2>${esc(e.title)}</h2><p class="dek">${esc(e.excerpt)}</p><span class="more">Read →</span></a>`).join('');
+    if(window.ddFavPaintAll) window.ddFavPaintAll();
   }
+  document.addEventListener('dd-fav-changed',()=>{ if(cat==='__fav__') render(); });
   chipsEl.addEventListener('click',e=>{if(e.target.dataset.c){cat=e.target.dataset.c;
     [...chipsEl.children].forEach(b=>b.classList.toggle('on',b===e.target));render();}});
   search.addEventListener('input',()=>{q=search.value.trim().toLowerCase();render();});

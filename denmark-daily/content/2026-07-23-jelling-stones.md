@@ -2,6 +2,10 @@
 title: Denmark's Birth Certificate — The Jelling Stones
 category: Vikings
 date: 2026-07-23
+image: assets/images/jelling-stones.jpg
+image_credit: Szilas / Wikimedia Commons
+image_licence: CC0
+image_alt: Runic stone raised by Harald Bluetooth
 sources:
   - Jelling Mounds, Runic Stones and Church — UNESCO | https://whc.unesco.org/en/list/697
   - The Jelling Stones — National Museum of Denmark | https://en.natmus.dk/

@@ -2,6 +2,10 @@
 title: A Queen Steps Down — From Margrethe II to Frederik X
 category: Monarchy
 date: 2026-07-22
+image: assets/images/margrethe-to-frederik.jpg
+image_credit: Jebulon / Wikimedia Commons
+image_licence: CC0
+image_alt: Two members of the Royal Lifeguard Guard at Amalienborg Palace, Copenhagen, Denmark.
 sources:
   - The Danish Monarchy — kongehuset.dk | https://www.kongehuset.dk/en
   - Margrethe II — Britannica | https://www.britannica.com/biography/Margrethe-II

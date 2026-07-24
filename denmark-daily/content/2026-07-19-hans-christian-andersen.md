@@ -2,6 +2,10 @@
 title: The Cobbler's Son Who Conquered the World — H.C. Andersen
 category: Literature
 date: 2026-07-19
+image: assets/images/hans-christian-andersen.jpg
+image_credit: klndonnelly / Wikimedia Commons
+image_licence: CC BY 2.0
+image_alt: Little Mermaid
 sources:
   - Hans Christian Andersen — Britannica | https://www.britannica.com/biography/Hans-Christian-Andersen
   - H.C. Andersens Hus, Odense | https://www.hcandersenshus.dk/en

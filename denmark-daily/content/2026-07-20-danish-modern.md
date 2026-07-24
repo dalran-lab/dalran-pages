@@ -2,6 +2,10 @@
 title: The Chair as National Art — Danish Modern
 category: Art & Design
 date: 2026-07-20
+image: assets/images/danish-modern.jpg
+image_credit: Nasjonalmuseet / Wikimedia Commons
+image_licence: CC BY-SA 4.0
+image_alt: Egg chair - Arne Jacobsen (1958)
 sources:
   - Arne Jacobsen — Britannica | https://www.britannica.com/biography/Arne-Jacobsen
   - Designmuseum Danmark | https://designmuseum.dk/en/

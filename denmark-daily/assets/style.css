@@ -124,3 +124,11 @@ footer.site .fine{color:var(--faint);font-size:.8rem;margin-top:.4rem}
   .recent .rule,.allink{grid-column:1/-1}
   .archive-title,.lead,.controls{max-width:60rem}
 }
+
+/* ---- favourites star ---- */
+.star{background:none;border:0;cursor:pointer;font-size:1.2rem;line-height:1;
+  color:#c9c2b4;padding:0 .1rem;margin-left:.45rem;transition:color .15s,transform .1s;
+  -webkit-tap-highlight-color:transparent}
+.star:hover{color:#d8a24a;transform:scale(1.15)}
+.star.on{color:#e0a324}
+.entry .meta .star{font-size:1.35rem}
