@@ -10,3 +10,4 @@ Format: `date · category · slug · short topic description`.
 - 2026-07-21 · History · eighteen-sixty-four · The Second Schleswig War of 1864, Dybbøl, loss of the duchies, 1920 Reunification
 - 2026-07-22 · Monarchy · margrethe-to-frederik · Margrethe II, the 2024 abdication, King Frederik X, Queen Mary, Amalienborg
 - 2026-07-23 · Vikings · jelling-stones · The Jelling stones, Gorm the Old, Harald Bluetooth, conversion to Christianity
+- 2026-07-24 · Politics · stauning-welfare-state · Stauning or Chaos — The Architect of the Welfare State
