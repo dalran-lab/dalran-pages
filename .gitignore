@@ -1,0 +1,6 @@
+# PUBLIC repo (GitHub Pages) — Denmark Daily project only.
+# Never commit personal or working files here. Guardrail: ignore any root-level
+# HTML except the redirect index, so a stray personal page can't be swept in.
+/*.html
+!/index.html
+.DS_Store

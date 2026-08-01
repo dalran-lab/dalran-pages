@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Archive — Denmark Daily</title>
+<meta name="description" content="Browse every Denmark Daily entry. Filter by category, search by keyword.">
+<meta property="og:title" content="Archive — Denmark Daily">
+<meta property="og:description" content="Browse every Denmark Daily entry. Filter by category, search by keyword.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_GB">
+<link rel="stylesheet" href="/dalran-pages/denmark-daily/assets/style.css">
+<script src="/dalran-pages/denmark-daily/assets/fav.js" defer></script>
+<link rel="alternate" hreflang="en" href="https://dalran-lab.github.io/dalran-pages/denmark-daily/archive.html">
+<link rel="alternate" hreflang="fr" href="https://dalran-lab.github.io/dalran-pages/denmark-daily/fr/archive.html">
+<link rel="alternate" hreflang="de" href="https://dalran-lab.github.io/dalran-pages/denmark-daily/de/archive.html">
+<link rel="alternate" hreflang="x-default" href="https://dalran-lab.github.io/dalran-pages/denmark-daily/archive.html">
+
+</head>
+<body>
+<header class="site">
+  <a class="brand" href="/dalran-pages/denmark-daily/index.html">
+    <span class="mark"></span>
+    <span class="wordmark">Denmark&nbsp;Daily</span>
+  </a>
+  <div class="headright">
+    <nav><a href="/dalran-pages/denmark-daily/index.html" class="">Today</a><a href="/dalran-pages/denmark-daily/archive.html" class="on">Archive</a></nav>
+    <div class="langsel" role="group" aria-label="Language / Langue / Sprache"><a href="/dalran-pages/denmark-daily/archive.html" class="on" hreflang="en" rel="alternate">EN</a><a href="/dalran-pages/denmark-daily/fr/archive.html" class="" hreflang="fr" rel="alternate">FR</a><a href="/dalran-pages/denmark-daily/de/archive.html" class="" hreflang="de" rel="alternate">DE</a></div>
+  </div>
+</header>
+<main>
+
+<h1 class="archive-title">Archive</h1>
+<p class="lead">Every entry so far — newest first. Filter by category or search by keyword.</p>
+<div class="controls">
+  <input id="search" type="search" placeholder="Search entries…" autocomplete="off" aria-label="Search entries…">
+  <div id="chips" class="chips"></div>
+</div>
+<div id="list" class="grid archive-grid"></div>
+<p id="empty" class="empty" hidden>No entries match.</p>
+<script>
+const BASE = "/dalran-pages/denmark-daily";
+const T = {all:"All", fav:"\u2605 Favourites",
+           save:"Save to favourites", empty:"No entries match.",
+           emptyFav:"No favourites yet \u2014 tap the \u2606 on any story to save it."};
+fetch(BASE + "/data/entries.json").then(r=>r.json()).then(function(all){
+  const list=document.getElementById('list'), chipsEl=document.getElementById('chips'),
+        search=document.getElementById('search'), empty=document.getElementById('empty');
+  let cat='all', q='';
+  const cats=[['all',T.all],['__fav__',T.fav]].concat([...new Set(all.map(e=>e.category))].map(c=>[c,c]));
+  function esc(s){return s.replace(/[&<>"]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]));}
+  chipsEl.innerHTML=cats.map((c,i)=>`<button class="chip${i===0?' on':''}" data-c="${c[0]}">${esc(c[1])}</button>`).join('');
+  function render(){
+    const favok=(e)=> cat!=='__fav__' || (window.ddFav && window.ddFav.isFav(e.slug));
+    const items=all.filter(e=>(cat==='all'||cat==='__fav__'||e.category===cat) && favok(e) &&
+      (q===''||(e.title+' '+e.excerpt+' '+e.category).toLowerCase().includes(q)));
+    empty.hidden=items.length>0;
+    empty.textContent = (cat==='__fav__' && items.length===0) ? T.emptyFav : T.empty;
+    list.innerHTML=items.map(e=>`<a class="card" href="${BASE}/entry/${e.slug}.html">
+      <div class="meta"><time>${e.pretty}</time><span class="dot">·</span><span class="wd">${e.weekday}</span>
+      <span class="badge" data-cat="${e.cat_slug}">${esc(e.category)}</span>
+      <button class="star" data-slug="${e.slug}" aria-label="${esc(T.save)}">☆</button></div>
+      <h2>${esc(e.title)}</h2><p class="dek">${esc(e.excerpt)}</p><span class="more">${esc("Read →")}</span></a>`).join('');
+    if(window.ddFavPaintAll) window.ddFavPaintAll();
+  }
+  document.addEventListener('dd-fav-changed',()=>{ if(cat==='__fav__') render(); });
+  chipsEl.addEventListener('click',e=>{if(e.target.dataset.c){cat=e.target.dataset.c;
+    [...chipsEl.children].forEach(b=>b.classList.toggle('on',b===e.target));render();}});
+  search.addEventListener('input',()=>{q=search.value.trim().toLowerCase();render();});
+  render();
+});
+</script>
+</main>
+<footer class="site">
+  <p><strong>Denmark Daily</strong> — one entry a day on Danish history, culture, and life, for a curious newcomer.</p>
+  <p class="fine">Published every morning at 06:00 Europe/Copenhagen. Images are public-domain or Creative Commons, credited under each. Built &amp; maintained by Dalran.</p>
+  
+</footer>
+</body>
+</html>
