@@ -19,3 +19,4 @@ Format: `date · category · slug · short topic description`.
 - 2026-07-30 · Geography · islands-and-bridges · A Kingdom of Islands — Denmark's Geography
 - 2026-07-31 · History · kalmar-union · One Queen, Three Kingdoms — The Kalmar Union
 - 2026-08-01 · Vikings · cnut-north-sea-empire · The Dane Who Ruled England — Cnut and the North Sea Empire
+- 2026-08-02 · Monarchy · christian-iv · The Builder King — Christian IV and the Making of Copenhagen
