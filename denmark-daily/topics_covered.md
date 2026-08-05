@@ -22,3 +22,4 @@ Format: `date · category · slug · short topic description`.
 - 2026-08-02 · Monarchy · christian-iv · The Builder King — Christian IV and the Making of Copenhagen
 - 2026-08-03 · Art & Design · hammershoi-skagen · Northern Light — Hammershøi and the Skagen Painters
 - 2026-08-04 · Literature · karen-blixen · Out of Africa and Back to Rungstedlund — Karen Blixen
+- 2026-08-05 · Food · smorrebrod-rugbrod · The Open Sandwich — Smørrebrød and the Rye Beneath It
