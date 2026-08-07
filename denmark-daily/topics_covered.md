@@ -24,3 +24,4 @@ Format: `date · category · slug · short topic description`.
 - 2026-08-04 · Literature · karen-blixen · Out of Africa and Back to Rungstedlund — Karen Blixen
 - 2026-08-05 · Food · smorrebrod-rugbrod · The Open Sandwich — Smørrebrød and the Rye Beneath It
 - 2026-08-06 · Society · rescue-1943 · The Boats to Sweden — The Rescue of the Danish Jews, 1943
+- 2026-08-07 · Politics · greenland-faroes-realm · Bigger Than It Looks — Greenland, the Faroes and the Danish Realm
