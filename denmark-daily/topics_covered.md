@@ -27,3 +27,4 @@ Format: `date · category · slug · short topic description`.
 - 2026-08-07 · Politics · greenland-faroes-realm · Bigger Than It Looks — Greenland, the Faroes and the Danish Realm
 - 2026-08-08 · Science · the-astronomer-king-of-hven · The Astronomer King of Hven — Tycho Brahe's Uraniborg
 - 2026-08-09 · Science · the-danish-astronomer-who-clocked-the-speed-of-l · The Danish Astronomer Who Clocked the Speed of Light — Ole Rømer's Jupiter Puzzle
+- 2026-08-10 · Science · a-compass-needle-twitches · A Compass Needle Twitches — Hans Christian Ørsted and the Birth of Electromagnetism
