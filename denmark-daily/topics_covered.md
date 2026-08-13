@@ -30,3 +30,4 @@ Format: `date · category · slug · short topic description`.
 - 2026-08-10 · Science · a-compass-needle-twitches · A Compass Needle Twitches — Hans Christian Ørsted and the Birth of Electromagnetism
 - 2026-08-11 · Science · catching-the-wind · Catching the Wind — From Poul la Cour's Attic to Ørsted's Turbines
 - 2026-08-12 · Science · from-toronto-to-bagsvrd · From Toronto to Bagsværd — Denmark's Century of Insulin
+- 2026-08-13 · Society · the-living-word · The Living Word — N.F.S. Grundtvig and Denmark's Folk High Schools
