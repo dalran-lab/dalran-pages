@@ -32,3 +32,4 @@ Format: `date · category · slug · short topic description`.
 - 2026-08-12 · Science · from-toronto-to-bagsvrd · From Toronto to Bagsværd — Denmark's Century of Insulin
 - 2026-08-13 · Society · the-living-word · The Living Word — N.F.S. Grundtvig and Denmark's Folk High Schools
 - 2026-08-14 · Society · tents-tramways-and-a-free-town · Tents, Tramways and a Free Town — Christiania's Fifty Years
+- 2026-08-15 · Society · two-wheels-one-city · Two Wheels, One City — Copenhagen's Bicycle Superhighways
