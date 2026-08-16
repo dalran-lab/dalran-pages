@@ -33,3 +33,4 @@ Format: `date · category · slug · short topic description`.
 - 2026-08-13 · Society · the-living-word · The Living Word — N.F.S. Grundtvig and Denmark's Folk High Schools
 - 2026-08-14 · Society · tents-tramways-and-a-free-town · Tents, Tramways and a Free Town — Christiania's Fifty Years
 - 2026-08-15 · Society · two-wheels-one-city · Two Wheels, One City — Copenhagen's Bicycle Superhighways
+- 2026-08-16 · Art & Design · leg-godt · Leg Godt — Ole Kirk Christiansen and the Billund Brick Empire
