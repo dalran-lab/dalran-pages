@@ -35,3 +35,4 @@ Format: `date · category · slug · short topic description`.
 - 2026-08-15 · Society · two-wheels-one-city · Two Wheels, One City — Copenhagen's Bicycle Superhighways
 - 2026-08-16 · Art & Design · leg-godt · Leg Godt — Ole Kirk Christiansen and the Billund Brick Empire
 - 2026-08-17 · Art & Design · chiselled-marble-danish-fame · Chiselled Marble, Danish Fame — Bertel Thorvaldsen's Homecoming
+- 2026-08-18 · Art & Design · skiing-on-a-power-plant · Skiing on a Power Plant — Bjarke Ingels and the Rise of BIG
