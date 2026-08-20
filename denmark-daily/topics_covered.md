@@ -37,3 +37,4 @@ Format: `date · category · slug · short topic description`.
 - 2026-08-17 · Art & Design · chiselled-marble-danish-fame · Chiselled Marble, Danish Fame — Bertel Thorvaldsen's Homecoming
 - 2026-08-18 · Art & Design · skiing-on-a-power-plant · Skiing on a Power Plant — Bjarke Ingels and the Rise of BIG
 - 2026-08-19 · Art & Design · sound-and-silence · Sound and Silence — Bang & Olufsen and the Danish Art of the Object
+- 2026-08-20 · Literature · the-single-individual · The Single Individual — Søren Kierkegaard and the Birth of Existentialism
