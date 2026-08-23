@@ -40,3 +40,4 @@ Format: `date · category · slug · short topic description`.
 - 2026-08-20 · Literature · the-single-individual · The Single Individual — Søren Kierkegaard and the Birth of Existentialism
 - 2026-08-21 · Literature · vesterbro-s-daughter · Vesterbro's Daughter — Tove Ditlevsen and the Poison in the Word "Gift"
 - 2026-08-22 · Literature · two-nations-one-pen · Two Nations, One Pen — Ludvig Holberg and the Comedy of Enlightenment Denmark
+- 2026-08-23 · History · the-king-signs-away-his-absolute-power · The King Signs Away His Absolute Power — Denmark's Constitution of 1849
