@@ -42,3 +42,4 @@ Format: `date · category · slug · short topic description`.
 - 2026-08-22 · Literature · two-nations-one-pen · Two Nations, One Pen — Ludvig Holberg and the Comedy of Enlightenment Denmark
 - 2026-08-23 · History · the-king-signs-away-his-absolute-power · The King Signs Away His Absolute Power — Denmark's Constitution of 1849
 - 2026-08-24 · History · six-words-on-the-radio · Six Words on the Radio — Denmark's Occupation and the Fight to End It
+- 2026-08-25 · History · a-kingdom-remade · A Kingdom Remade — Christian III and the Reformation of 1536
