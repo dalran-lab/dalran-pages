@@ -44,3 +44,4 @@ Format: `date · category · slug · short topic description`.
 - 2026-08-24 · History · six-words-on-the-radio · Six Words on the Radio — Denmark's Occupation and the Fight to End It
 - 2026-08-25 · History · a-kingdom-remade · A Kingdom Remade — Christian III and the Reformation of 1536
 - 2026-08-28 · History · i-really-do-not-see-the-signal · "I Really Do Not See the Signal — Nelson's Blind Eye off Copenhagen, 1801"
+- 2026-08-29 · Monarchy · the-king-on-horseback · The King on Horseback — Christian X and the Ritual of Occupied Copenhagen
