@@ -46,3 +46,4 @@ Format: `date · category · slug · short topic description`.
 - 2026-08-28 · History · i-really-do-not-see-the-signal · "I Really Do Not See the Signal — Nelson's Blind Eye off Copenhagen, 1801"
 - 2026-08-29 · Monarchy · the-king-on-horseback · The King on Horseback — Christian X and the Ritual of Occupied Copenhagen
 - 2026-08-30 · Music · light-on-the-feet · Light on the Feet — August Bournonville and the Royal Danish Ballet
+- 2026-08-31 · Music · life-in-plastic-then-lean-on · Life in Plastic, Then "Lean On" — Denmark's Pop Exports
