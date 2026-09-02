@@ -48,3 +48,4 @@ Format: `date · category · slug · short topic description`.
 - 2026-08-30 · Music · light-on-the-feet · Light on the Feet — August Bournonville and the Royal Danish Ballet
 - 2026-08-31 · Music · life-in-plastic-then-lean-on · Life in Plastic, Then "Lean On" — Denmark's Pop Exports
 - 2026-09-01 · Film · the-face-as-landscape · The Face as Landscape — Carl Th. Dreyer and the Cinema of the Soul
+- 2026-09-02 · Film · the-hunter-s-face · The Hunter's Face — Mads Mikkelsen and Denmark's Cinema Abroad
