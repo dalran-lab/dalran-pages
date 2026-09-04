@@ -50,3 +50,4 @@ Format: `date · category · slug · short topic description`.
 - 2026-09-01 · Film · the-face-as-landscape · The Face as Landscape — Carl Th. Dreyer and the Cinema of the Soul
 - 2026-09-02 · Film · the-hunter-s-face · The Hunter's Face — Mads Mikkelsen and Denmark's Cinema Abroad
 - 2026-09-03 · Sport · the-eagle-and-the-fish-packer · The Eagle and the Fish-Packer — Denmark's Century in the Yellow Jersey
+- 2026-09-04 · Sport · handbold · Håndbold — Denmark's Winter Religion and the Olympic Three-Peat
