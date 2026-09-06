@@ -52,3 +52,4 @@ Format: `date · category · slug · short topic description`.
 - 2026-09-03 · Sport · the-eagle-and-the-fish-packer · The Eagle and the Fish-Packer — Denmark's Century in the Yellow Jersey
 - 2026-09-04 · Sport · handbold · Håndbold — Denmark's Winter Religion and the Olympic Three-Peat
 - 2026-09-05 · Food · yeast-under-his-hat · Yeast Under His Hat — J.C. Jacobsen and the Making of Carlsberg
+- 2026-09-06 · Food · baked-in-copenhagen-named-for-vienna · Baked in Copenhagen, Named for Vienna — The Twisted History of Wienerbrød
