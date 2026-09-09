@@ -55,3 +55,4 @@ Format: `date · category · slug · short topic description`.
 - 2026-09-06 · Food · baked-in-copenhagen-named-for-vienna · Baked in Copenhagen, Named for Vienna — The Twisted History of Wienerbrød
 - 2026-09-07 · Geography · the-black-sun-over-the-mudflats · The Black Sun Over the Mudflats — Denmark's Wadden Sea
 - 2026-09-08 · Geography · granite-in-a-sea-of-chalk · Granite in a Sea of Chalk — Bornholm, Denmark's Baltic Outlier
+- 2026-09-09 · Geography · river-mouth-to-rainbow · River Mouth to Rainbow — Aarhus, Denmark's Restless Second City
