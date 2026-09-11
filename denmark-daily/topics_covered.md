@@ -57,3 +57,4 @@ Format: `date · category · slug · short topic description`.
 - 2026-09-08 · Geography · granite-in-a-sea-of-chalk · Granite in a Sea of Chalk — Bornholm, Denmark's Baltic Outlier
 - 2026-09-09 · Geography · river-mouth-to-rainbow · River Mouth to Rainbow — Aarhus, Denmark's Restless Second City
 - 2026-09-10 · Vikings · four-gates-to-the-compass · Four Gates to the Compass — Harald Bluetooth's Ring Fortresses
+- 2026-09-11 · Vikings · scuttled-to-block-a-fjord · Scuttled to Block a Fjord — Roskilde's Skuldelev Viking Ships
