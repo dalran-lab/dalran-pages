@@ -63,3 +63,4 @@ Format: `date · category · slug · short topic description`.
 - 2026-09-16 · History · the-castle-that-guarded-a-toll · The Castle That Guarded a Toll — Kronborg and the Sound Dues
 - 2026-09-17 · Politics · the-system-change · The System Change — How 1901 Taught the Danish Crown to Listen
 - 2026-09-21 · History · the-girl-who-traveled-before-she-died · The Girl Who Traveled Before She Died — Denmark's Egtved Bronze Age Burial
+- 2026-09-22 · Literature · the-lecture-that-broke-the-ice · The Lecture That Broke the Ice — Georg Brandes and Denmark's Modern Breakthrough
