@@ -65,3 +65,4 @@ Format: `date · category · slug · short topic description`.
 - 2026-09-21 · History · the-girl-who-traveled-before-she-died · The Girl Who Traveled Before She Died — Denmark's Egtved Bronze Age Burial
 - 2026-09-22 · Literature · the-lecture-that-broke-the-ice · The Lecture That Broke the Ice — Georg Brandes and Denmark's Modern Breakthrough
 - 2026-09-24 · History · the-bishop-who-built-a-harbor · The Bishop Who Built a Harbor — Absalon and Copenhagen's First Walls
+- 2026-09-26 · Geography · horsens-son-at-the-edge-of-the-map · Horsens' Son at the Edge of the Map — Vitus Bering and the Strait That Bears His Name
