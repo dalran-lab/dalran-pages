@@ -67,3 +67,4 @@ Format: `date · category · slug · short topic description`.
 - 2026-09-24 · History · the-bishop-who-built-a-harbor · The Bishop Who Built a Harbor — Absalon and Copenhagen's First Walls
 - 2026-09-26 · Geography · horsens-son-at-the-edge-of-the-map · Horsens' Son at the Edge of the Map — Vitus Bering and the Strait That Bears His Name
 - 2026-09-28 · Film · the-polar-bear-on-the-globe · The Polar Bear on the Globe — Nordisk Film and Denmark's Lost Movie Empire
+- 2026-09-29 · History · sold-for-gold · Sold for Gold — Denmark's Caribbean Colony and the Making of the US Virgin Islands
