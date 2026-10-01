@@ -68,3 +68,4 @@ Format: `date · category · slug · short topic description`.
 - 2026-09-26 · Geography · horsens-son-at-the-edge-of-the-map · Horsens' Son at the Edge of the Map — Vitus Bering and the Strait That Bears His Name
 - 2026-09-28 · Film · the-polar-bear-on-the-globe · The Polar Bear on the Globe — Nordisk Film and Denmark's Lost Movie Empire
 - 2026-09-29 · History · sold-for-gold · Sold for Gold — Denmark's Caribbean Colony and the Making of the US Virgin Islands
+- 2026-10-01 · History · fallen-from-the-sky · Fallen From the Sky — The Legend and Law of the Dannebrog
