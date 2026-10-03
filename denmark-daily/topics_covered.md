@@ -70,3 +70,4 @@ Format: `date · category · slug · short topic description`.
 - 2026-09-29 · History · sold-for-gold · Sold for Gold — Denmark's Caribbean Colony and the Making of the US Virgin Islands
 - 2026-10-01 · History · fallen-from-the-sky · Fallen From the Sky — The Legend and Law of the Dannebrog
 - 2026-10-02 · History · the-ramparts-that-shrank-a-kingdom · The Ramparts That Shrank a Kingdom — Dybbøl and the War of 1864
+- 2026-10-03 · Science · the-man-who-rounded-the-corners · The Man Who Rounded the Corners — Piet Hein's Superellipse
