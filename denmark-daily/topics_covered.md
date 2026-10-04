@@ -71,3 +71,4 @@ Format: `date · category · slug · short topic description`.
 - 2026-10-01 · History · fallen-from-the-sky · Fallen From the Sky — The Legend and Law of the Dannebrog
 - 2026-10-02 · History · the-ramparts-that-shrank-a-kingdom · The Ramparts That Shrank a Kingdom — Dybbøl and the War of 1864
 - 2026-10-03 · Science · the-man-who-rounded-the-corners · The Man Who Rounded the Corners — Piet Hein's Superellipse
+- 2026-10-04 · Science · the-needle-that-twitched · The Needle That Twitched — Hans Christian Ørsted and the Discovery of Electromagnetism
