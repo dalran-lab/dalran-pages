@@ -75,3 +75,4 @@ Format: `date · category · slug · short topic description`.
 - 2026-10-05 · History · the-earthwork-that-outlasted-kingdoms · The Earthwork That Outlasted Kingdoms — Denmark's Danevirke
 - 2026-10-06 · Science · the-woman-who-heard-the-earth-s-hidden-core · The Woman Who Heard the Earth's Hidden Core — Inge Lehmann's Discovery
 - 2026-10-09 · Music · thirty-thousand-volunteers-and-no-owner · Thirty Thousand Volunteers and No Owner — The Story of Roskilde Festival
+- 2026-10-11 · Science · light-as-medicine · Light as Medicine — Niels Finsen and Denmark's First Nobel Prize
