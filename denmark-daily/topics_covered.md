@@ -77,3 +77,4 @@ Format: `date · category · slug · short topic description`.
 - 2026-10-09 · Music · thirty-thousand-volunteers-and-no-owner · Thirty Thousand Volunteers and No Owner — The Story of Roskilde Festival
 - 2026-10-11 · Science · light-as-medicine · Light as Medicine — Niels Finsen and Denmark's First Nobel Prize
 - 2026-10-12 · Science · the-needle-that-moved · The Needle That Moved — Hans Christian Ørsted and the Discovery of Electromagnetism
+- 2026-10-13 · History · the-vote-that-redrew-a-border · The Vote That Redrew a Border — Denmark's 1920 Reunification with Northern Schleswig
