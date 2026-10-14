@@ -78,3 +78,4 @@ Format: `date · category · slug · short topic description`.
 - 2026-10-11 · Science · light-as-medicine · Light as Medicine — Niels Finsen and Denmark's First Nobel Prize
 - 2026-10-12 · Science · the-needle-that-moved · The Needle That Moved — Hans Christian Ørsted and the Discovery of Electromagnetism
 - 2026-10-13 · History · the-vote-that-redrew-a-border · The Vote That Redrew a Border — Denmark's 1920 Reunification with Northern Schleswig
+- 2026-10-14 · Science · the-moons-of-jupiter-and-the-speed-of-light · The Moons of Jupiter and the Speed of Light — Ole Rømer's Discovery
