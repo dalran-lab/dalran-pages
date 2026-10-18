@@ -80,3 +80,4 @@ Format: `date · category · slug · short topic description`.
 - 2026-10-13 · History · the-vote-that-redrew-a-border · The Vote That Redrew a Border — Denmark's 1920 Reunification with Northern Schleswig
 - 2026-10-14 · Science · the-moons-of-jupiter-and-the-speed-of-light · The Moons of Jupiter and the Speed of Light — Ole Rømer's Discovery
 - 2026-10-16 · Art & Design · light-over-copenhagen · Light Over Copenhagen — Denmark's Golden Age of Painting
+- 2026-10-18 · Art & Design · light-over-the-sound · Light Over the Sound — Eckersberg and Denmark's Golden Age of Painting
