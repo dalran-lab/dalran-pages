@@ -84,3 +84,4 @@ Format: `date · category · slug · short topic description`.
 - 2026-10-19 · Art & Design · thirteen-studs-a-second · Thirteen Studs a Second — How a Carpenter's Workshop Became LEGO
 - 2026-10-20 · Science · the-pump-inside-every-cell · The Pump Inside Every Cell — Jens Christian Skou's Nobel Discovery
 - 2026-10-21 · Art & Design · light-over-resund · Light Over Øresund — Eckersberg and Denmark's Painted Golden Age
+- 2026-10-22 · Sport · danish-dynamite · Danish Dynamite — The Football Team That Danced Before It Lost
