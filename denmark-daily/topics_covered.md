@@ -86,3 +86,4 @@ Format: `date · category · slug · short topic description`.
 - 2026-10-21 · Art & Design · light-over-resund · Light Over Øresund — Eckersberg and Denmark's Painted Golden Age
 - 2026-10-22 · Sport · danish-dynamite · Danish Dynamite — The Football Team That Danced Before It Lost
 - 2026-10-25 · Language · aa-becomes-a · Aa Becomes Å — Denmark's 1948 Spelling Reform
+- 2026-10-26 · Politics · the-vote-denmark-almost-didn-t-give · The Vote Denmark Almost Didn't Give — Women's Suffrage of 1915
