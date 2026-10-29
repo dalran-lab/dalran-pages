@@ -88,3 +88,4 @@ Format: `date · category · slug · short topic description`.
 - 2026-10-25 · Language · aa-becomes-a · Aa Becomes Å — Denmark's 1948 Spelling Reform
 - 2026-10-26 · Politics · the-vote-denmark-almost-didn-t-give · The Vote Denmark Almost Didn't Give — Women's Suffrage of 1915
 - 2026-10-28 · Geography · the-night-the-sea-broke-through · The Night the Sea Broke Through — How a Storm Split Jutland in Two
+- 2026-10-29 · Vikings · counted-in-tree-rings · Counted in Tree Rings — Dating Denmark's Viking Ring Fortresses
