@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+<channel>
+  <title>Denmark Daily</title>
+  <link>https://dalran-lab.github.io/dalran-pages/denmark-daily/</link>
+  <language>en</language>
+  <description>One short story a day about Denmark's history, culture and present, for newcomers.</description>
+  <itunes:author>Denmark Daily</itunes:author>
+  <itunes:image href="https://dalran-lab.github.io/dalran-pages/denmark-daily/podcast/cover.png"/>
+  <itunes:category text="History"/>
+  <itunes:explicit>false</itunes:explicit>
+  <item>
+    <title>From Fossils to Faith — Nicolas Steno's Two Callings</title>
+    <description>Science. Read the full entry with sources at https://dalran-lab.github.io/dalran-pages/denmark-daily/entry/2026-10-31-from-fossils-to-faith.html</description>
+    <link>https://dalran-lab.github.io/dalran-pages/denmark-daily/</link>
+    <guid isPermaLink="false">denmark-daily-2026-10-31-from-fossils-to-faith</guid>
+    <pubDate>Sat, 31 Oct 2026 06:00:00 +0100</pubDate>
+    <enclosure url="https://dalran-lab.github.io/dalran-pages/denmark-daily/podcast/audio/2026-10-31-from-fossils-to-faith.m4a" length="672401" type="audio/x-m4a"/>
+    <itunes:duration>2:40</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
+  <item>
+    <title>Wapentake and Husting — How the Danelaw Left Its Mark on English</title>
+    <description>Vikings. Read the full entry with sources at https://dalran-lab.github.io/dalran-pages/denmark-daily/entry/2026-10-30-wapentake-and-husting.html</description>
+    <link>https://dalran-lab.github.io/dalran-pages/denmark-daily/</link>
+    <guid isPermaLink="false">denmark-daily-2026-10-30-wapentake-and-husting</guid>
+    <pubDate>Fri, 30 Oct 2026 06:00:00 +0100</pubDate>
+    <enclosure url="https://dalran-lab.github.io/dalran-pages/denmark-daily/podcast/audio/2026-10-30-wapentake-and-husting.m4a" length="672485" type="audio/x-m4a"/>
+    <itunes:duration>2:39</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
+  <item>
+    <title>Counted in Tree Rings — Dating Denmark's Viking Ring Fortresses</title>
+    <description>Vikings. Read the full entry with sources at https://dalran-lab.github.io/dalran-pages/denmark-daily/entry/2026-10-29-counted-in-tree-rings.html</description>
+    <link>https://dalran-lab.github.io/dalran-pages/denmark-daily/</link>
+    <guid isPermaLink="false">denmark-daily-2026-10-29-counted-in-tree-rings</guid>
+    <pubDate>Thu, 29 Oct 2026 06:00:00 +0100</pubDate>
+    <enclosure url="https://dalran-lab.github.io/dalran-pages/denmark-daily/podcast/audio/2026-10-29-counted-in-tree-rings.m4a" length="703785" type="audio/x-m4a"/>
+    <itunes:duration>2:47</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
+  <item>
+    <title>The Night the Sea Broke Through — How a Storm Split Jutland in Two</title>
+    <description>Geography. Read the full entry with sources at https://dalran-lab.github.io/dalran-pages/denmark-daily/entry/2026-10-28-the-night-the-sea-broke-through.html</description>
+    <link>https://dalran-lab.github.io/dalran-pages/denmark-daily/</link>
+    <guid isPermaLink="false">denmark-daily-2026-10-28-the-night-the-sea-broke-through</guid>
+    <pubDate>Wed, 28 Oct 2026 06:00:00 +0100</pubDate>
+    <enclosure url="https://dalran-lab.github.io/dalran-pages/denmark-daily/podcast/audio/2026-10-28-the-night-the-sea-broke-through.m4a" length="629959" type="audio/x-m4a"/>
+    <itunes:duration>2:30</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
+  <item>
+    <title>The Vote Denmark Almost Didn't Give — Women's Suffrage of 1915</title>
+    <description>Politics. Read the full entry with sources at https://dalran-lab.github.io/dalran-pages/denmark-daily/entry/2026-10-26-the-vote-denmark-almost-didn-t-give.html</description>
+    <link>https://dalran-lab.github.io/dalran-pages/denmark-daily/</link>
+    <guid isPermaLink="false">denmark-daily-2026-10-26-the-vote-denmark-almost-didn-t-give</guid>
+    <pubDate>Mon, 26 Oct 2026 06:00:00 +0100</pubDate>
+    <enclosure url="https://dalran-lab.github.io/dalran-pages/denmark-daily/podcast/audio/2026-10-26-the-vote-denmark-almost-didn-t-give.m4a" length="726518" type="audio/x-m4a"/>
+    <itunes:duration>2:53</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
+  <item>
+    <title>Aa Becomes Å — Denmark's 1948 Spelling Reform</title>
+    <description>Language. Read the full entry with sources at https://dalran-lab.github.io/dalran-pages/denmark-daily/entry/2026-10-25-aa-becomes-a.html</description>
+    <link>https://dalran-lab.github.io/dalran-pages/denmark-daily/</link>
+    <guid isPermaLink="false">denmark-daily-2026-10-25-aa-becomes-a</guid>
+    <pubDate>Sun, 25 Oct 2026 06:00:00 +0100</pubDate>
+    <enclosure url="https://dalran-lab.github.io/dalran-pages/denmark-daily/podcast/audio/2026-10-25-aa-becomes-a.m4a" length="651415" type="audio/x-m4a"/>
+    <itunes:duration>2:35</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
+  <item>
+    <title>Danish Dynamite — The Football Team That Danced Before It Lost</title>
+    <description>Sport. Read the full entry with sources at https://dalran-lab.github.io/dalran-pages/denmark-daily/entry/2026-10-22-danish-dynamite.html</description>
+    <link>https://dalran-lab.github.io/dalran-pages/denmark-daily/</link>
+    <guid isPermaLink="false">denmark-daily-2026-10-22-danish-dynamite</guid>
+    <pubDate>Thu, 22 Oct 2026 06:00:00 +0200</pubDate>
+    <enclosure url="https://dalran-lab.github.io/dalran-pages/denmark-daily/podcast/audio/2026-10-22-danish-dynamite.m4a" length="652992" type="audio/x-m4a"/>
+    <itunes:duration>2:35</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
+</channel>
+</rss>
