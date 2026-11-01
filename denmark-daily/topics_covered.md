@@ -91,3 +91,4 @@ Format: `date · category · slug · short topic description`.
 - 2026-10-29 · Vikings · counted-in-tree-rings · Counted in Tree Rings — Dating Denmark's Viking Ring Fortresses
 - 2026-10-30 · Vikings · wapentake-and-husting · Wapentake and Husting — How the Danelaw Left Its Mark on English
 - 2026-10-31 · Science · from-fossils-to-faith · From Fossils to Faith — Nicolas Steno's Two Callings
+- 2026-11-01 · Literature · the-woman-who-vanished-in-the-snow · The Woman Who Vanished in the Snow — Peter Høeg and the Birth of Nordic Noir

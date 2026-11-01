@@ -10,6 +10,16 @@
   <itunes:category text="History"/>
   <itunes:explicit>false</itunes:explicit>
   <item>
+    <title>The Woman Who Vanished in the Snow — Peter Høeg and the Birth of Nordic Noir</title>
+    <description>Literature. Read the full entry with sources at https://dalran-lab.github.io/dalran-pages/denmark-daily/entry/2026-11-01-the-woman-who-vanished-in-the-snow.html</description>
+    <link>https://dalran-lab.github.io/dalran-pages/denmark-daily/</link>
+    <guid isPermaLink="false">denmark-daily-2026-11-01-the-woman-who-vanished-in-the-snow</guid>
+    <pubDate>Sun, 01 Nov 2026 06:00:00 +0100</pubDate>
+    <enclosure url="https://dalran-lab.github.io/dalran-pages/denmark-daily/podcast/audio/2026-11-01-the-woman-who-vanished-in-the-snow.m4a" length="678476" type="audio/x-m4a"/>
+    <itunes:duration>2:41</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
+  <item>
     <title>From Fossils to Faith — Nicolas Steno's Two Callings</title>
     <description>Science. Read the full entry with sources at https://dalran-lab.github.io/dalran-pages/denmark-daily/entry/2026-10-31-from-fossils-to-faith.html</description>
     <link>https://dalran-lab.github.io/dalran-pages/denmark-daily/</link>
@@ -77,6 +87,26 @@
     <pubDate>Thu, 22 Oct 2026 06:00:00 +0200</pubDate>
     <enclosure url="https://dalran-lab.github.io/dalran-pages/denmark-daily/podcast/audio/2026-10-22-danish-dynamite.m4a" length="652992" type="audio/x-m4a"/>
     <itunes:duration>2:35</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
+  <item>
+    <title>Light Over Øresund — Eckersberg and Denmark's Painted Golden Age</title>
+    <description>Art &amp; Design. Read the full entry with sources at https://dalran-lab.github.io/dalran-pages/denmark-daily/entry/2026-10-21-light-over-resund.html</description>
+    <link>https://dalran-lab.github.io/dalran-pages/denmark-daily/</link>
+    <guid isPermaLink="false">denmark-daily-2026-10-21-light-over-resund</guid>
+    <pubDate>Wed, 21 Oct 2026 06:00:00 +0200</pubDate>
+    <enclosure url="https://dalran-lab.github.io/dalran-pages/denmark-daily/podcast/audio/2026-10-21-light-over-resund.m4a" length="653650" type="audio/x-m4a"/>
+    <itunes:duration>2:36</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
+  <item>
+    <title>The Pump Inside Every Cell — Jens Christian Skou's Nobel Discovery</title>
+    <description>Science. Read the full entry with sources at https://dalran-lab.github.io/dalran-pages/denmark-daily/entry/2026-10-20-the-pump-inside-every-cell.html</description>
+    <link>https://dalran-lab.github.io/dalran-pages/denmark-daily/</link>
+    <guid isPermaLink="false">denmark-daily-2026-10-20-the-pump-inside-every-cell</guid>
+    <pubDate>Tue, 20 Oct 2026 06:00:00 +0200</pubDate>
+    <enclosure url="https://dalran-lab.github.io/dalran-pages/denmark-daily/podcast/audio/2026-10-20-the-pump-inside-every-cell.m4a" length="682804" type="audio/x-m4a"/>
+    <itunes:duration>2:42</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
   </item>
 </channel>
