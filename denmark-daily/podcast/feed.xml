@@ -10,6 +10,16 @@
   <itunes:category text="History"/>
   <itunes:explicit>false</itunes:explicit>
   <item>
+    <title>Murder, Coalition Politics and Denmark's Sweater — The Nordic Noir Export</title>
+    <description>Film. Read the full entry with sources at https://dalran-lab.github.io/dalran-pages/denmark-daily/entry/2026-11-02-murder-coalition-politics-and-denmark-s-sweater.html</description>
+    <link>https://dalran-lab.github.io/dalran-pages/denmark-daily/</link>
+    <guid isPermaLink="false">denmark-daily-2026-11-02-murder-coalition-politics-and-denmark-s-sweater</guid>
+    <pubDate>Mon, 02 Nov 2026 06:00:00 +0100</pubDate>
+    <enclosure url="https://dalran-lab.github.io/dalran-pages/denmark-daily/podcast/audio/2026-11-02-murder-coalition-politics-and-denmark-s-sweater.m4a" length="725944" type="audio/x-m4a"/>
+    <itunes:duration>2:52</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
+  <item>
     <title>The Woman Who Vanished in the Snow — Peter Høeg and the Birth of Nordic Noir</title>
     <description>Literature. Read the full entry with sources at https://dalran-lab.github.io/dalran-pages/denmark-daily/entry/2026-11-01-the-woman-who-vanished-in-the-snow.html</description>
     <link>https://dalran-lab.github.io/dalran-pages/denmark-daily/</link>
@@ -107,6 +117,26 @@
     <pubDate>Tue, 20 Oct 2026 06:00:00 +0200</pubDate>
     <enclosure url="https://dalran-lab.github.io/dalran-pages/denmark-daily/podcast/audio/2026-10-20-the-pump-inside-every-cell.m4a" length="682804" type="audio/x-m4a"/>
     <itunes:duration>2:42</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
+  <item>
+    <title>Thirteen Studs a Second — How a Carpenter's Workshop Became LEGO</title>
+    <description>Art &amp; Design. Read the full entry with sources at https://dalran-lab.github.io/dalran-pages/denmark-daily/entry/2026-10-19-thirteen-studs-a-second.html</description>
+    <link>https://dalran-lab.github.io/dalran-pages/denmark-daily/</link>
+    <guid isPermaLink="false">denmark-daily-2026-10-19-thirteen-studs-a-second</guid>
+    <pubDate>Mon, 19 Oct 2026 06:00:00 +0200</pubDate>
+    <enclosure url="https://dalran-lab.github.io/dalran-pages/denmark-daily/podcast/audio/2026-10-19-thirteen-studs-a-second.m4a" length="672575" type="audio/x-m4a"/>
+    <itunes:duration>2:39</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
+  <item>
+    <title>Light Over the Sound — Eckersberg and Denmark's Golden Age of Painting</title>
+    <description>Art &amp; Design. Read the full entry with sources at https://dalran-lab.github.io/dalran-pages/denmark-daily/entry/2026-10-18-light-over-the-sound.html</description>
+    <link>https://dalran-lab.github.io/dalran-pages/denmark-daily/</link>
+    <guid isPermaLink="false">denmark-daily-2026-10-18-light-over-the-sound</guid>
+    <pubDate>Sun, 18 Oct 2026 06:00:00 +0200</pubDate>
+    <enclosure url="https://dalran-lab.github.io/dalran-pages/denmark-daily/podcast/audio/2026-10-18-light-over-the-sound.m4a" length="641553" type="audio/x-m4a"/>
+    <itunes:duration>2:33</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
   </item>
 </channel>
