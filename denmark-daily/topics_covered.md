@@ -93,3 +93,4 @@ Format: `date · category · slug · short topic description`.
 - 2026-10-31 · Science · from-fossils-to-faith · From Fossils to Faith — Nicolas Steno's Two Callings
 - 2026-11-01 · Literature · the-woman-who-vanished-in-the-snow · The Woman Who Vanished in the Snow — Peter Høeg and the Birth of Nordic Noir
 - 2026-11-02 · Film · murder-coalition-politics-and-denmark-s-sweater · Murder, Coalition Politics and Denmark's Sweater — The Nordic Noir Export
+- 2026-11-03 · Music · four-hundred-songs · Four Hundred Songs — Højskolesangbogen and the Danish Art of Singing Together
