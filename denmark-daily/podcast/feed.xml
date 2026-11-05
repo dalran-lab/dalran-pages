@@ -10,6 +10,16 @@
   <itunes:category text="History"/>
   <itunes:explicit>false</itunes:explicit>
   <item>
+    <title>Hire Freely, Fall Softly — Denmark's Flexicurity Bargain</title>
+    <description>Society. Read the full entry with sources at https://dalran-lab.github.io/dalran-pages/denmark-daily/entry/2026-11-05-hire-freely-fall-softly.html</description>
+    <link>https://dalran-lab.github.io/dalran-pages/denmark-daily/</link>
+    <guid isPermaLink="false">denmark-daily-2026-11-05-hire-freely-fall-softly</guid>
+    <pubDate>Thu, 05 Nov 2026 06:00:00 +0100</pubDate>
+    <enclosure url="https://dalran-lab.github.io/dalran-pages/denmark-daily/podcast/audio/2026-11-05-hire-freely-fall-softly.m4a" length="691219" type="audio/x-m4a"/>
+    <itunes:duration>2:44</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
+  <item>
     <title>Fifty Is "Half-Third Times Twenty" — Denmark's Vigesimal Numbers</title>
     <description>Language. Read the full entry with sources at https://dalran-lab.github.io/dalran-pages/denmark-daily/entry/2026-11-04-fifty-is-half-third-times-twenty.html</description>
     <link>https://dalran-lab.github.io/dalran-pages/denmark-daily/</link>
@@ -137,16 +147,6 @@
     <pubDate>Tue, 20 Oct 2026 06:00:00 +0200</pubDate>
     <enclosure url="https://dalran-lab.github.io/dalran-pages/denmark-daily/podcast/audio/2026-10-20-the-pump-inside-every-cell.m4a" length="682804" type="audio/x-m4a"/>
     <itunes:duration>2:42</itunes:duration>
-    <itunes:explicit>false</itunes:explicit>
-  </item>
-  <item>
-    <title>Thirteen Studs a Second — How a Carpenter's Workshop Became LEGO</title>
-    <description>Art &amp; Design. Read the full entry with sources at https://dalran-lab.github.io/dalran-pages/denmark-daily/entry/2026-10-19-thirteen-studs-a-second.html</description>
-    <link>https://dalran-lab.github.io/dalran-pages/denmark-daily/</link>
-    <guid isPermaLink="false">denmark-daily-2026-10-19-thirteen-studs-a-second</guid>
-    <pubDate>Mon, 19 Oct 2026 06:00:00 +0200</pubDate>
-    <enclosure url="https://dalran-lab.github.io/dalran-pages/denmark-daily/podcast/audio/2026-10-19-thirteen-studs-a-second.m4a" length="672575" type="audio/x-m4a"/>
-    <itunes:duration>2:39</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
   </item>
 </channel>
