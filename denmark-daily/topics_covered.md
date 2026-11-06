@@ -96,3 +96,4 @@ Format: `date · category · slug · short topic description`.
 - 2026-11-03 · Music · four-hundred-songs · Four Hundred Songs — Højskolesangbogen and the Danish Art of Singing Together
 - 2026-11-04 · Language · fifty-is-half-third-times-twenty · Fifty Is "Half-Third Times Twenty" — Denmark's Vigesimal Numbers
 - 2026-11-05 · Society · hire-freely-fall-softly · Hire Freely, Fall Softly — Denmark's Flexicurity Bargain
+- 2026-11-06 · Society · milk-trust-and-the-separator · Milk, Trust and the Separator — How Andelsbevægelsen Built Modern Denmark
