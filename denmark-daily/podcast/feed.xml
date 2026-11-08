@@ -10,6 +10,16 @@
   <itunes:category text="History"/>
   <itunes:explicit>false</itunes:explicit>
   <item>
+    <title>Behind the Ramparts — Georg Carstensen and the Birth of Tivoli</title>
+    <description>Society. Read the full entry with sources at https://dalran-lab.github.io/dalran-pages/denmark-daily/entry/2026-11-08-behind-the-ramparts.html</description>
+    <link>https://dalran-lab.github.io/dalran-pages/denmark-daily/</link>
+    <guid isPermaLink="false">denmark-daily-2026-11-08-behind-the-ramparts</guid>
+    <pubDate>Sun, 08 Nov 2026 06:00:00 +0100</pubDate>
+    <enclosure url="https://dalran-lab.github.io/dalran-pages/denmark-daily/podcast/audio/2026-11-08-behind-the-ramparts.m4a" length="736726" type="audio/x-m4a"/>
+    <itunes:duration>2:55</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
+  <item>
     <title>Nobody Is Better Than You — Denmark's Unwritten Law of Janteloven</title>
     <description>Society. Read the full entry with sources at https://dalran-lab.github.io/dalran-pages/denmark-daily/entry/2026-11-07-nobody-is-better-than-you.html</description>
     <link>https://dalran-lab.github.io/dalran-pages/denmark-daily/</link>
@@ -136,16 +146,6 @@
     <guid isPermaLink="false">denmark-daily-2026-10-25-aa-becomes-a</guid>
     <pubDate>Sun, 25 Oct 2026 06:00:00 +0100</pubDate>
     <enclosure url="https://dalran-lab.github.io/dalran-pages/denmark-daily/podcast/audio/2026-10-25-aa-becomes-a.m4a" length="651415" type="audio/x-m4a"/>
-    <itunes:duration>2:35</itunes:duration>
-    <itunes:explicit>false</itunes:explicit>
-  </item>
-  <item>
-    <title>Danish Dynamite — The Football Team That Danced Before It Lost</title>
-    <description>Sport. Read the full entry with sources at https://dalran-lab.github.io/dalran-pages/denmark-daily/entry/2026-10-22-danish-dynamite.html</description>
-    <link>https://dalran-lab.github.io/dalran-pages/denmark-daily/</link>
-    <guid isPermaLink="false">denmark-daily-2026-10-22-danish-dynamite</guid>
-    <pubDate>Thu, 22 Oct 2026 06:00:00 +0200</pubDate>
-    <enclosure url="https://dalran-lab.github.io/dalran-pages/denmark-daily/podcast/audio/2026-10-22-danish-dynamite.m4a" length="652992" type="audio/x-m4a"/>
     <itunes:duration>2:35</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
   </item>
