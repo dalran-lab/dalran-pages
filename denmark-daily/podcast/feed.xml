@@ -10,6 +10,16 @@
   <itunes:category text="History"/>
   <itunes:explicit>false</itunes:explicit>
   <item>
+    <title>Banishing the Glare — Poul Henningsen and Denmark's PH Lamp</title>
+    <description>Art &amp; Design. Read the full entry with sources at https://dalran-lab.github.io/dalran-pages/denmark-daily/entry/2026-11-10-banishing-the-glare.html</description>
+    <link>https://dalran-lab.github.io/dalran-pages/denmark-daily/</link>
+    <guid isPermaLink="false">denmark-daily-2026-11-10-banishing-the-glare</guid>
+    <pubDate>Tue, 10 Nov 2026 06:00:00 +0100</pubDate>
+    <enclosure url="https://dalran-lab.github.io/dalran-pages/denmark-daily/podcast/audio/2026-11-10-banishing-the-glare.m4a" length="687960" type="audio/x-m4a"/>
+    <itunes:duration>2:43</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
+  <item>
     <title>The Architect Who Walked Away — Jørn Utzon and the Sydney Opera House</title>
     <description>Art &amp; Design. Read the full entry with sources at https://dalran-lab.github.io/dalran-pages/denmark-daily/entry/2026-11-09-the-architect-who-walked-away.html</description>
     <link>https://dalran-lab.github.io/dalran-pages/denmark-daily/</link>
@@ -137,16 +147,6 @@
     <pubDate>Wed, 28 Oct 2026 06:00:00 +0100</pubDate>
     <enclosure url="https://dalran-lab.github.io/dalran-pages/denmark-daily/podcast/audio/2026-10-28-the-night-the-sea-broke-through.m4a" length="629959" type="audio/x-m4a"/>
     <itunes:duration>2:30</itunes:duration>
-    <itunes:explicit>false</itunes:explicit>
-  </item>
-  <item>
-    <title>The Vote Denmark Almost Didn't Give — Women's Suffrage of 1915</title>
-    <description>Politics. Read the full entry with sources at https://dalran-lab.github.io/dalran-pages/denmark-daily/entry/2026-10-26-the-vote-denmark-almost-didn-t-give.html</description>
-    <link>https://dalran-lab.github.io/dalran-pages/denmark-daily/</link>
-    <guid isPermaLink="false">denmark-daily-2026-10-26-the-vote-denmark-almost-didn-t-give</guid>
-    <pubDate>Mon, 26 Oct 2026 06:00:00 +0100</pubDate>
-    <enclosure url="https://dalran-lab.github.io/dalran-pages/denmark-daily/podcast/audio/2026-10-26-the-vote-denmark-almost-didn-t-give.m4a" length="726518" type="audio/x-m4a"/>
-    <itunes:duration>2:53</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
   </item>
 </channel>
