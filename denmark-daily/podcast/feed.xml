@@ -10,6 +10,16 @@
   <itunes:category text="History"/>
   <itunes:explicit>false</itunes:explicit>
   <item>
+    <title>Flesh That Outlasted Two Thousand Years — The Tollund Man and Jutland's Bog Bodies</title>
+    <description>History. Read the full entry with sources at https://dalran-lab.github.io/dalran-pages/denmark-daily/entry/2026-11-11-flesh-that-outlasted-two-thousand-years.html</description>
+    <link>https://dalran-lab.github.io/dalran-pages/denmark-daily/</link>
+    <guid isPermaLink="false">denmark-daily-2026-11-11-flesh-that-outlasted-two-thousand-years</guid>
+    <pubDate>Wed, 11 Nov 2026 06:00:00 +0100</pubDate>
+    <enclosure url="https://dalran-lab.github.io/dalran-pages/denmark-daily/podcast/audio/2026-11-11-flesh-that-outlasted-two-thousand-years.m4a" length="620806" type="audio/x-m4a"/>
+    <itunes:duration>2:28</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
+  <item>
     <title>Banishing the Glare — Poul Henningsen and Denmark's PH Lamp</title>
     <description>Art &amp; Design. Read the full entry with sources at https://dalran-lab.github.io/dalran-pages/denmark-daily/entry/2026-11-10-banishing-the-glare.html</description>
     <link>https://dalran-lab.github.io/dalran-pages/denmark-daily/</link>
@@ -137,16 +147,6 @@
     <pubDate>Thu, 29 Oct 2026 06:00:00 +0100</pubDate>
     <enclosure url="https://dalran-lab.github.io/dalran-pages/denmark-daily/podcast/audio/2026-10-29-counted-in-tree-rings.m4a" length="703785" type="audio/x-m4a"/>
     <itunes:duration>2:47</itunes:duration>
-    <itunes:explicit>false</itunes:explicit>
-  </item>
-  <item>
-    <title>The Night the Sea Broke Through — How a Storm Split Jutland in Two</title>
-    <description>Geography. Read the full entry with sources at https://dalran-lab.github.io/dalran-pages/denmark-daily/entry/2026-10-28-the-night-the-sea-broke-through.html</description>
-    <link>https://dalran-lab.github.io/dalran-pages/denmark-daily/</link>
-    <guid isPermaLink="false">denmark-daily-2026-10-28-the-night-the-sea-broke-through</guid>
-    <pubDate>Wed, 28 Oct 2026 06:00:00 +0100</pubDate>
-    <enclosure url="https://dalran-lab.github.io/dalran-pages/denmark-daily/podcast/audio/2026-10-28-the-night-the-sea-broke-through.m4a" length="629959" type="audio/x-m4a"/>
-    <itunes:duration>2:30</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
   </item>
 </channel>

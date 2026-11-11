@@ -101,3 +101,4 @@ Format: `date · category · slug · short topic description`.
 - 2026-11-08 · Society · behind-the-ramparts · Behind the Ramparts — Georg Carstensen and the Birth of Tivoli
 - 2026-11-09 · Art & Design · the-architect-who-walked-away · The Architect Who Walked Away — Jørn Utzon and the Sydney Opera House
 - 2026-11-10 · Art & Design · banishing-the-glare · Banishing the Glare — Poul Henningsen and Denmark's PH Lamp
+- 2026-11-11 · History · flesh-that-outlasted-two-thousand-years · Flesh That Outlasted Two Thousand Years — The Tollund Man and Jutland's Bog Bodies
