@@ -10,6 +10,16 @@
   <itunes:category text="History"/>
   <itunes:explicit>false</itunes:explicit>
   <item>
+    <title>The Witch Who Never Burns — Denmark's Sankt Hans Bonfires</title>
+    <description>Society. Read the full entry with sources at https://dalran-lab.github.io/dalran-pages/denmark-daily/entry/2026-11-12-the-witch-who-never-burns.html</description>
+    <link>https://dalran-lab.github.io/dalran-pages/denmark-daily/</link>
+    <guid isPermaLink="false">denmark-daily-2026-11-12-the-witch-who-never-burns</guid>
+    <pubDate>Thu, 12 Nov 2026 06:00:00 +0100</pubDate>
+    <enclosure url="https://dalran-lab.github.io/dalran-pages/denmark-daily/podcast/audio/2026-11-12-the-witch-who-never-burns.m4a" length="615443" type="audio/x-m4a"/>
+    <itunes:duration>2:26</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
+  <item>
     <title>Flesh That Outlasted Two Thousand Years — The Tollund Man and Jutland's Bog Bodies</title>
     <description>History. Read the full entry with sources at https://dalran-lab.github.io/dalran-pages/denmark-daily/entry/2026-11-11-flesh-that-outlasted-two-thousand-years.html</description>
     <link>https://dalran-lab.github.io/dalran-pages/denmark-daily/</link>
@@ -137,16 +147,6 @@
     <pubDate>Fri, 30 Oct 2026 06:00:00 +0100</pubDate>
     <enclosure url="https://dalran-lab.github.io/dalran-pages/denmark-daily/podcast/audio/2026-10-30-wapentake-and-husting.m4a" length="672485" type="audio/x-m4a"/>
     <itunes:duration>2:39</itunes:duration>
-    <itunes:explicit>false</itunes:explicit>
-  </item>
-  <item>
-    <title>Counted in Tree Rings — Dating Denmark's Viking Ring Fortresses</title>
-    <description>Vikings. Read the full entry with sources at https://dalran-lab.github.io/dalran-pages/denmark-daily/entry/2026-10-29-counted-in-tree-rings.html</description>
-    <link>https://dalran-lab.github.io/dalran-pages/denmark-daily/</link>
-    <guid isPermaLink="false">denmark-daily-2026-10-29-counted-in-tree-rings</guid>
-    <pubDate>Thu, 29 Oct 2026 06:00:00 +0100</pubDate>
-    <enclosure url="https://dalran-lab.github.io/dalran-pages/denmark-daily/podcast/audio/2026-10-29-counted-in-tree-rings.m4a" length="703785" type="audio/x-m4a"/>
-    <itunes:duration>2:47</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
   </item>
 </channel>
