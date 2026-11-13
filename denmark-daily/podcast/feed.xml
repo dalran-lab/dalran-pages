@@ -10,6 +10,16 @@
   <itunes:category text="History"/>
   <itunes:explicit>false</itunes:explicit>
   <item>
+    <title>Beating the Barrel — Fastelavn and Denmark's Carnival Before Lent</title>
+    <description>Society. Read the full entry with sources at https://dalran-lab.github.io/dalran-pages/denmark-daily/entry/2026-11-13-beating-the-barrel.html</description>
+    <link>https://dalran-lab.github.io/dalran-pages/denmark-daily/</link>
+    <guid isPermaLink="false">denmark-daily-2026-11-13-beating-the-barrel</guid>
+    <pubDate>Fri, 13 Nov 2026 06:00:00 +0100</pubDate>
+    <enclosure url="https://dalran-lab.github.io/dalran-pages/denmark-daily/podcast/audio/2026-11-13-beating-the-barrel.m4a" length="621120" type="audio/x-m4a"/>
+    <itunes:duration>2:28</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
+  <item>
     <title>The Witch Who Never Burns — Denmark's Sankt Hans Bonfires</title>
     <description>Society. Read the full entry with sources at https://dalran-lab.github.io/dalran-pages/denmark-daily/entry/2026-11-12-the-witch-who-never-burns.html</description>
     <link>https://dalran-lab.github.io/dalran-pages/denmark-daily/</link>
@@ -137,16 +147,6 @@
     <pubDate>Sat, 31 Oct 2026 06:00:00 +0100</pubDate>
     <enclosure url="https://dalran-lab.github.io/dalran-pages/denmark-daily/podcast/audio/2026-10-31-from-fossils-to-faith.m4a" length="672401" type="audio/x-m4a"/>
     <itunes:duration>2:40</itunes:duration>
-    <itunes:explicit>false</itunes:explicit>
-  </item>
-  <item>
-    <title>Wapentake and Husting — How the Danelaw Left Its Mark on English</title>
-    <description>Vikings. Read the full entry with sources at https://dalran-lab.github.io/dalran-pages/denmark-daily/entry/2026-10-30-wapentake-and-husting.html</description>
-    <link>https://dalran-lab.github.io/dalran-pages/denmark-daily/</link>
-    <guid isPermaLink="false">denmark-daily-2026-10-30-wapentake-and-husting</guid>
-    <pubDate>Fri, 30 Oct 2026 06:00:00 +0100</pubDate>
-    <enclosure url="https://dalran-lab.github.io/dalran-pages/denmark-daily/podcast/audio/2026-10-30-wapentake-and-husting.m4a" length="672485" type="audio/x-m4a"/>
-    <itunes:duration>2:39</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
   </item>
 </channel>
