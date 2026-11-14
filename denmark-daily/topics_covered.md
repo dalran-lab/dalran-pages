@@ -104,3 +104,4 @@ Format: `date · category · slug · short topic description`.
 - 2026-11-11 · History · flesh-that-outlasted-two-thousand-years · Flesh That Outlasted Two Thousand Years — The Tollund Man and Jutland's Bog Bodies
 - 2026-11-12 · Society · the-witch-who-never-burns · The Witch Who Never Burns — Denmark's Sankt Hans Bonfires
 - 2026-11-13 · Society · beating-the-barrel · Beating the Barrel — Fastelavn and Denmark's Carnival Before Lent
+- 2026-11-14 · Sport · from-the-filleting-line-to-the-yellow-jersey · From the Filleting Line to the Yellow Jersey — Jonas Vingegaard's Tour de France

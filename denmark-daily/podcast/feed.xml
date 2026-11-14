@@ -10,6 +10,16 @@
   <itunes:category text="History"/>
   <itunes:explicit>false</itunes:explicit>
   <item>
+    <title>From the Filleting Line to the Yellow Jersey — Jonas Vingegaard's Tour de France</title>
+    <description>Sport. Read the full entry with sources at https://dalran-lab.github.io/dalran-pages/denmark-daily/entry/2026-11-14-from-the-filleting-line-to-the-yellow-jersey.html</description>
+    <link>https://dalran-lab.github.io/dalran-pages/denmark-daily/</link>
+    <guid isPermaLink="false">denmark-daily-2026-11-14-from-the-filleting-line-to-the-yellow-jersey</guid>
+    <pubDate>Sat, 14 Nov 2026 06:00:00 +0100</pubDate>
+    <enclosure url="https://dalran-lab.github.io/dalran-pages/denmark-daily/podcast/audio/2026-11-14-from-the-filleting-line-to-the-yellow-jersey.m4a" length="614794" type="audio/x-m4a"/>
+    <itunes:duration>2:26</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
+  <item>
     <title>Beating the Barrel — Fastelavn and Denmark's Carnival Before Lent</title>
     <description>Society. Read the full entry with sources at https://dalran-lab.github.io/dalran-pages/denmark-daily/entry/2026-11-13-beating-the-barrel.html</description>
     <link>https://dalran-lab.github.io/dalran-pages/denmark-daily/</link>
@@ -137,16 +147,6 @@
     <pubDate>Sun, 01 Nov 2026 06:00:00 +0100</pubDate>
     <enclosure url="https://dalran-lab.github.io/dalran-pages/denmark-daily/podcast/audio/2026-11-01-the-woman-who-vanished-in-the-snow.m4a" length="678476" type="audio/x-m4a"/>
     <itunes:duration>2:41</itunes:duration>
-    <itunes:explicit>false</itunes:explicit>
-  </item>
-  <item>
-    <title>From Fossils to Faith — Nicolas Steno's Two Callings</title>
-    <description>Science. Read the full entry with sources at https://dalran-lab.github.io/dalran-pages/denmark-daily/entry/2026-10-31-from-fossils-to-faith.html</description>
-    <link>https://dalran-lab.github.io/dalran-pages/denmark-daily/</link>
-    <guid isPermaLink="false">denmark-daily-2026-10-31-from-fossils-to-faith</guid>
-    <pubDate>Sat, 31 Oct 2026 06:00:00 +0100</pubDate>
-    <enclosure url="https://dalran-lab.github.io/dalran-pages/denmark-daily/podcast/audio/2026-10-31-from-fossils-to-faith.m4a" length="672401" type="audio/x-m4a"/>
-    <itunes:duration>2:40</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
   </item>
 </channel>
