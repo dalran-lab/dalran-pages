@@ -107,3 +107,4 @@ Format: `date · category · slug · short topic description`.
 - 2026-11-14 · Sport · from-the-filleting-line-to-the-yellow-jersey · From the Filleting Line to the Yellow Jersey — Jonas Vingegaard's Tour de France
 - 2026-11-15 · Society · dive-right-in · Dive Right In — How Copenhagen's Harbour Became a Swimming Pool
 - 2026-11-16 · Monarchy · nine-months-in-power · Nine Months in Power — Struensee, the Mad King and the Queen's Scaffold
+- 2026-11-17 · Art & Design · interiors-of-silence · Interiors of Silence — Vilhelm Hammershøi and the Light of Copenhagen

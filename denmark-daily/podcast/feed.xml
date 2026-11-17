@@ -10,6 +10,16 @@
   <itunes:category text="History"/>
   <itunes:explicit>false</itunes:explicit>
   <item>
+    <title>Interiors of Silence — Vilhelm Hammershøi and the Light of Copenhagen</title>
+    <description>Art &amp; Design. Read the full entry with sources at https://dalran-lab.github.io/dalran-pages/denmark-daily/entry/2026-11-17-interiors-of-silence.html</description>
+    <link>https://dalran-lab.github.io/dalran-pages/denmark-daily/</link>
+    <guid isPermaLink="false">denmark-daily-2026-11-17-interiors-of-silence</guid>
+    <pubDate>Tue, 17 Nov 2026 06:00:00 +0100</pubDate>
+    <enclosure url="https://dalran-lab.github.io/dalran-pages/denmark-daily/podcast/audio/2026-11-17-interiors-of-silence.m4a" length="641073" type="audio/x-m4a"/>
+    <itunes:duration>2:33</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
+  <item>
     <title>Nine Months in Power — Struensee, the Mad King and the Queen's Scaffold</title>
     <description>Monarchy. Read the full entry with sources at https://dalran-lab.github.io/dalran-pages/denmark-daily/entry/2026-11-16-nine-months-in-power.html</description>
     <link>https://dalran-lab.github.io/dalran-pages/denmark-daily/</link>
@@ -137,16 +147,6 @@
     <pubDate>Wed, 04 Nov 2026 06:00:00 +0100</pubDate>
     <enclosure url="https://dalran-lab.github.io/dalran-pages/denmark-daily/podcast/audio/2026-11-04-fifty-is-half-third-times-twenty.m4a" length="677260" type="audio/x-m4a"/>
     <itunes:duration>2:41</itunes:duration>
-    <itunes:explicit>false</itunes:explicit>
-  </item>
-  <item>
-    <title>Four Hundred Songs — Højskolesangbogen and the Danish Art of Singing Together</title>
-    <description>Music. Read the full entry with sources at https://dalran-lab.github.io/dalran-pages/denmark-daily/entry/2026-11-03-four-hundred-songs.html</description>
-    <link>https://dalran-lab.github.io/dalran-pages/denmark-daily/</link>
-    <guid isPermaLink="false">denmark-daily-2026-11-03-four-hundred-songs</guid>
-    <pubDate>Tue, 03 Nov 2026 06:00:00 +0100</pubDate>
-    <enclosure url="https://dalran-lab.github.io/dalran-pages/denmark-daily/podcast/audio/2026-11-03-four-hundred-songs.m4a" length="749705" type="audio/x-m4a"/>
-    <itunes:duration>2:59</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
   </item>
 </channel>
