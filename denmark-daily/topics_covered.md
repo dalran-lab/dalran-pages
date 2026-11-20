@@ -110,3 +110,4 @@ Format: `date · category · slug · short topic description`.
 - 2026-11-17 · Art & Design · interiors-of-silence · Interiors of Silence — Vilhelm Hammershøi and the Light of Copenhagen
 - 2026-11-18 · Science · the-eclipse-that-was-late · The Eclipse That Was Late — Ole Rømer and the Speed of Light
 - 2026-11-19 · Science · the-nobleman-who-measured-the-sky · The Nobleman Who Measured the Sky — Tycho Brahe's Uraniborg
+- 2026-11-20 · History · what-is-lost-outward-shall-be-won-inward · What Is Lost Outward Shall Be Won Inward — The Battle of Dybbøl, 1864
