@@ -112,3 +112,4 @@ Format: `date · category · slug · short topic description`.
 - 2026-11-19 · Science · the-nobleman-who-measured-the-sky · The Nobleman Who Measured the Sky — Tycho Brahe's Uraniborg
 - 2026-11-20 · History · what-is-lost-outward-shall-be-won-inward · What Is Lost Outward Shall Be Won Inward — The Battle of Dybbøl, 1864
 - 2026-11-21 · Science · layers-of-time · Layers of Time — Nicolas Steno and the Birth of Geology
+- 2026-11-22 · Monarchy · brick-copper-and-ambition · Brick, Copper and Ambition — Christian IV and the Making of Copenhagen
