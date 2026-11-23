@@ -10,6 +10,16 @@
   <itunes:category text="History"/>
   <itunes:explicit>false</itunes:explicit>
   <item>
+    <title>The Holiday Team That Won a Continent — Denmark's Euro 92 Miracle</title>
+    <description>Sport. Read the full entry with sources at https://dalran-lab.github.io/dalran-pages/denmark-daily/entry/2026-11-23-the-holiday-team-that-won-a-continent.html</description>
+    <link>https://dalran-lab.github.io/dalran-pages/denmark-daily/</link>
+    <guid isPermaLink="false">denmark-daily-2026-11-23-the-holiday-team-that-won-a-continent</guid>
+    <pubDate>Mon, 23 Nov 2026 06:00:00 +0100</pubDate>
+    <enclosure url="https://dalran-lab.github.io/dalran-pages/denmark-daily/podcast/audio/2026-11-23-the-holiday-team-that-won-a-continent.m4a" length="612998" type="audio/x-m4a"/>
+    <itunes:duration>2:26</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
+  <item>
     <title>Brick, Copper and Ambition — Christian IV and the Making of Copenhagen</title>
     <description>Monarchy. Read the full entry with sources at https://dalran-lab.github.io/dalran-pages/denmark-daily/entry/2026-11-22-brick-copper-and-ambition.html</description>
     <link>https://dalran-lab.github.io/dalran-pages/denmark-daily/</link>
@@ -137,16 +147,6 @@
     <pubDate>Tue, 10 Nov 2026 06:00:00 +0100</pubDate>
     <enclosure url="https://dalran-lab.github.io/dalran-pages/denmark-daily/podcast/audio/2026-11-10-banishing-the-glare.m4a" length="687960" type="audio/x-m4a"/>
     <itunes:duration>2:43</itunes:duration>
-    <itunes:explicit>false</itunes:explicit>
-  </item>
-  <item>
-    <title>The Architect Who Walked Away — Jørn Utzon and the Sydney Opera House</title>
-    <description>Art &amp; Design. Read the full entry with sources at https://dalran-lab.github.io/dalran-pages/denmark-daily/entry/2026-11-09-the-architect-who-walked-away.html</description>
-    <link>https://dalran-lab.github.io/dalran-pages/denmark-daily/</link>
-    <guid isPermaLink="false">denmark-daily-2026-11-09-the-architect-who-walked-away</guid>
-    <pubDate>Mon, 09 Nov 2026 06:00:00 +0100</pubDate>
-    <enclosure url="https://dalran-lab.github.io/dalran-pages/denmark-daily/podcast/audio/2026-11-09-the-architect-who-walked-away.m4a" length="691343" type="audio/x-m4a"/>
-    <itunes:duration>2:44</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
   </item>
 </channel>
