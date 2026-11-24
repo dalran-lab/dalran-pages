@@ -10,6 +10,16 @@
   <itunes:category text="History"/>
   <itunes:explicit>false</itunes:explicit>
   <item>
+    <title>The Bishop Who Built a City — Absalon and the Founding of Copenhagen</title>
+    <description>History. Read the full entry with sources at https://dalran-lab.github.io/dalran-pages/denmark-daily/entry/2026-11-24-the-bishop-who-built-a-city.html</description>
+    <link>https://dalran-lab.github.io/dalran-pages/denmark-daily/</link>
+    <guid isPermaLink="false">denmark-daily-2026-11-24-the-bishop-who-built-a-city</guid>
+    <pubDate>Tue, 24 Nov 2026 06:00:00 +0100</pubDate>
+    <enclosure url="https://dalran-lab.github.io/dalran-pages/denmark-daily/podcast/audio/2026-11-24-the-bishop-who-built-a-city.m4a" length="627266" type="audio/x-m4a"/>
+    <itunes:duration>2:29</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
+  <item>
     <title>The Holiday Team That Won a Continent — Denmark's Euro 92 Miracle</title>
     <description>Sport. Read the full entry with sources at https://dalran-lab.github.io/dalran-pages/denmark-daily/entry/2026-11-23-the-holiday-team-that-won-a-continent.html</description>
     <link>https://dalran-lab.github.io/dalran-pages/denmark-daily/</link>
@@ -137,16 +147,6 @@
     <pubDate>Wed, 11 Nov 2026 06:00:00 +0100</pubDate>
     <enclosure url="https://dalran-lab.github.io/dalran-pages/denmark-daily/podcast/audio/2026-11-11-flesh-that-outlasted-two-thousand-years.m4a" length="620806" type="audio/x-m4a"/>
     <itunes:duration>2:28</itunes:duration>
-    <itunes:explicit>false</itunes:explicit>
-  </item>
-  <item>
-    <title>Banishing the Glare — Poul Henningsen and Denmark's PH Lamp</title>
-    <description>Art &amp; Design. Read the full entry with sources at https://dalran-lab.github.io/dalran-pages/denmark-daily/entry/2026-11-10-banishing-the-glare.html</description>
-    <link>https://dalran-lab.github.io/dalran-pages/denmark-daily/</link>
-    <guid isPermaLink="false">denmark-daily-2026-11-10-banishing-the-glare</guid>
-    <pubDate>Tue, 10 Nov 2026 06:00:00 +0100</pubDate>
-    <enclosure url="https://dalran-lab.github.io/dalran-pages/denmark-daily/podcast/audio/2026-11-10-banishing-the-glare.m4a" length="687960" type="audio/x-m4a"/>
-    <itunes:duration>2:43</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
   </item>
 </channel>

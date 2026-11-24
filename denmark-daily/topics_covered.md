@@ -114,3 +114,4 @@ Format: `date · category · slug · short topic description`.
 - 2026-11-21 · Science · layers-of-time · Layers of Time — Nicolas Steno and the Birth of Geology
 - 2026-11-22 · Monarchy · brick-copper-and-ambition · Brick, Copper and Ambition — Christian IV and the Making of Copenhagen
 - 2026-11-23 · Sport · the-holiday-team-that-won-a-continent · The Holiday Team That Won a Continent — Denmark's Euro 92 Miracle
+- 2026-11-24 · History · the-bishop-who-built-a-city · The Bishop Who Built a City — Absalon and the Founding of Copenhagen
