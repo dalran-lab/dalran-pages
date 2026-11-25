@@ -10,6 +10,16 @@
   <itunes:category text="History"/>
   <itunes:explicit>false</itunes:explicit>
   <item>
+    <title>Lucky Per and Denmark's Uneasy Bargain with Progress — Henrik Pontoppidan's Nobel</title>
+    <description>Literature. Read the full entry with sources at https://dalran-lab.github.io/dalran-pages/denmark-daily/entry/2026-11-25-lucky-per-and-denmark-s-uneasy-bargain-with-prog.html</description>
+    <link>https://dalran-lab.github.io/dalran-pages/denmark-daily/</link>
+    <guid isPermaLink="false">denmark-daily-2026-11-25-lucky-per-and-denmark-s-uneasy-bargain-with-prog</guid>
+    <pubDate>Wed, 25 Nov 2026 06:00:00 +0100</pubDate>
+    <enclosure url="https://dalran-lab.github.io/dalran-pages/denmark-daily/podcast/audio/2026-11-25-lucky-per-and-denmark-s-uneasy-bargain-with-prog.m4a" length="689060" type="audio/x-m4a"/>
+    <itunes:duration>2:43</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
+  <item>
     <title>The Bishop Who Built a City — Absalon and the Founding of Copenhagen</title>
     <description>History. Read the full entry with sources at https://dalran-lab.github.io/dalran-pages/denmark-daily/entry/2026-11-24-the-bishop-who-built-a-city.html</description>
     <link>https://dalran-lab.github.io/dalran-pages/denmark-daily/</link>
@@ -137,16 +147,6 @@
     <pubDate>Thu, 12 Nov 2026 06:00:00 +0100</pubDate>
     <enclosure url="https://dalran-lab.github.io/dalran-pages/denmark-daily/podcast/audio/2026-11-12-the-witch-who-never-burns.m4a" length="615443" type="audio/x-m4a"/>
     <itunes:duration>2:26</itunes:duration>
-    <itunes:explicit>false</itunes:explicit>
-  </item>
-  <item>
-    <title>Flesh That Outlasted Two Thousand Years — The Tollund Man and Jutland's Bog Bodies</title>
-    <description>History. Read the full entry with sources at https://dalran-lab.github.io/dalran-pages/denmark-daily/entry/2026-11-11-flesh-that-outlasted-two-thousand-years.html</description>
-    <link>https://dalran-lab.github.io/dalran-pages/denmark-daily/</link>
-    <guid isPermaLink="false">denmark-daily-2026-11-11-flesh-that-outlasted-two-thousand-years</guid>
-    <pubDate>Wed, 11 Nov 2026 06:00:00 +0100</pubDate>
-    <enclosure url="https://dalran-lab.github.io/dalran-pages/denmark-daily/podcast/audio/2026-11-11-flesh-that-outlasted-two-thousand-years.m4a" length="620806" type="audio/x-m4a"/>
-    <itunes:duration>2:28</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
   </item>
 </channel>
