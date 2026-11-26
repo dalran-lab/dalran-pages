@@ -10,6 +10,16 @@
   <itunes:category text="History"/>
   <itunes:explicit>false</itunes:explicit>
   <item>
+    <title>Behind the Gate — Christiania and Copenhagen's Freetown Experiment</title>
+    <description>Society. Read the full entry with sources at https://dalran-lab.github.io/dalran-pages/denmark-daily/entry/2026-11-26-behind-the-gate.html</description>
+    <link>https://dalran-lab.github.io/dalran-pages/denmark-daily/</link>
+    <guid isPermaLink="false">denmark-daily-2026-11-26-behind-the-gate</guid>
+    <pubDate>Thu, 26 Nov 2026 06:00:00 +0100</pubDate>
+    <enclosure url="https://dalran-lab.github.io/dalran-pages/denmark-daily/podcast/audio/2026-11-26-behind-the-gate.m4a" length="645716" type="audio/x-m4a"/>
+    <itunes:duration>2:34</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
+  <item>
     <title>Lucky Per and Denmark's Uneasy Bargain with Progress — Henrik Pontoppidan's Nobel</title>
     <description>Literature. Read the full entry with sources at https://dalran-lab.github.io/dalran-pages/denmark-daily/entry/2026-11-25-lucky-per-and-denmark-s-uneasy-bargain-with-prog.html</description>
     <link>https://dalran-lab.github.io/dalran-pages/denmark-daily/</link>
@@ -137,16 +147,6 @@
     <pubDate>Fri, 13 Nov 2026 06:00:00 +0100</pubDate>
     <enclosure url="https://dalran-lab.github.io/dalran-pages/denmark-daily/podcast/audio/2026-11-13-beating-the-barrel.m4a" length="621120" type="audio/x-m4a"/>
     <itunes:duration>2:28</itunes:duration>
-    <itunes:explicit>false</itunes:explicit>
-  </item>
-  <item>
-    <title>The Witch Who Never Burns — Denmark's Sankt Hans Bonfires</title>
-    <description>Society. Read the full entry with sources at https://dalran-lab.github.io/dalran-pages/denmark-daily/entry/2026-11-12-the-witch-who-never-burns.html</description>
-    <link>https://dalran-lab.github.io/dalran-pages/denmark-daily/</link>
-    <guid isPermaLink="false">denmark-daily-2026-11-12-the-witch-who-never-burns</guid>
-    <pubDate>Thu, 12 Nov 2026 06:00:00 +0100</pubDate>
-    <enclosure url="https://dalran-lab.github.io/dalran-pages/denmark-daily/podcast/audio/2026-11-12-the-witch-who-never-burns.m4a" length="615443" type="audio/x-m4a"/>
-    <itunes:duration>2:26</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
   </item>
 </channel>
