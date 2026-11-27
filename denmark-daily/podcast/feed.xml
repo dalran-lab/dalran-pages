@@ -10,6 +10,16 @@
   <itunes:category text="History"/>
   <itunes:explicit>false</itunes:explicit>
   <item>
+    <title>The Astronomer Who Built His Own Island — Tycho Brahe and Uraniborg</title>
+    <description>Science. Read the full entry with sources at https://dalran-lab.github.io/dalran-pages/denmark-daily/entry/2026-11-27-the-astronomer-who-built-his-own-island.html</description>
+    <link>https://dalran-lab.github.io/dalran-pages/denmark-daily/</link>
+    <guid isPermaLink="false">denmark-daily-2026-11-27-the-astronomer-who-built-his-own-island</guid>
+    <pubDate>Fri, 27 Nov 2026 06:00:00 +0100</pubDate>
+    <enclosure url="https://dalran-lab.github.io/dalran-pages/denmark-daily/podcast/audio/2026-11-27-the-astronomer-who-built-his-own-island.m4a" length="622957" type="audio/x-m4a"/>
+    <itunes:duration>2:28</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
+  <item>
     <title>Behind the Gate — Christiania and Copenhagen's Freetown Experiment</title>
     <description>Society. Read the full entry with sources at https://dalran-lab.github.io/dalran-pages/denmark-daily/entry/2026-11-26-behind-the-gate.html</description>
     <link>https://dalran-lab.github.io/dalran-pages/denmark-daily/</link>
@@ -137,16 +147,6 @@
     <pubDate>Sat, 14 Nov 2026 06:00:00 +0100</pubDate>
     <enclosure url="https://dalran-lab.github.io/dalran-pages/denmark-daily/podcast/audio/2026-11-14-from-the-filleting-line-to-the-yellow-jersey.m4a" length="614794" type="audio/x-m4a"/>
     <itunes:duration>2:26</itunes:duration>
-    <itunes:explicit>false</itunes:explicit>
-  </item>
-  <item>
-    <title>Beating the Barrel — Fastelavn and Denmark's Carnival Before Lent</title>
-    <description>Society. Read the full entry with sources at https://dalran-lab.github.io/dalran-pages/denmark-daily/entry/2026-11-13-beating-the-barrel.html</description>
-    <link>https://dalran-lab.github.io/dalran-pages/denmark-daily/</link>
-    <guid isPermaLink="false">denmark-daily-2026-11-13-beating-the-barrel</guid>
-    <pubDate>Fri, 13 Nov 2026 06:00:00 +0100</pubDate>
-    <enclosure url="https://dalran-lab.github.io/dalran-pages/denmark-daily/podcast/audio/2026-11-13-beating-the-barrel.m4a" length="621120" type="audio/x-m4a"/>
-    <itunes:duration>2:28</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
   </item>
 </channel>

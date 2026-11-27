@@ -117,3 +117,4 @@ Format: `date · category · slug · short topic description`.
 - 2026-11-24 · History · the-bishop-who-built-a-city · The Bishop Who Built a City — Absalon and the Founding of Copenhagen
 - 2026-11-25 · Literature · lucky-per-and-denmark-s-uneasy-bargain-with-prog · Lucky Per and Denmark's Uneasy Bargain with Progress — Henrik Pontoppidan's Nobel
 - 2026-11-26 · Society · behind-the-gate · Behind the Gate — Christiania and Copenhagen's Freetown Experiment
+- 2026-11-27 · Science · the-astronomer-who-built-his-own-island · The Astronomer Who Built His Own Island — Tycho Brahe and Uraniborg
